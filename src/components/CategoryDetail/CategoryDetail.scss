@@ -12,6 +12,7 @@
         font-size: 18px;
         line-height: 1.5;
         color: #3D3E40;
+        margin-bottom: 35px;
       }
     }
 
@@ -21,6 +22,28 @@
       background-color: #FFDE59;
       padding: 24px;
       margin-right: 24px;
+      position: relative;
+
+      &:before, &:after {
+        content: '';
+        position: absolute;
+      }
+
+      &:before {
+        width: 88px;
+        height: 88px;
+        background: url(../../assets/images/rounded-dotted-grid.svg);
+        top:-77px;
+        right: 48px;
+      }
+
+      &:after {
+        width: 35px;
+        height: 154px;
+        background: url(../../assets/images/square-boxes-grid.svg);
+        bottom: 48px;
+        left: -35px;
+      }
 
       &.media-width-multiple-images {
         min-height: unset;
@@ -30,6 +53,8 @@
         margin: -48px -48px 0 0;
         overflow: hidden;
         height: calc(100% + 48px);
+        position: relative;
+        z-index: 10;
 
         .img-holder {
           width: 100%;

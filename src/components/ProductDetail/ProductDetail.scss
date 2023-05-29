@@ -1,0 +1,19 @@
+.product-detail-section {
+  padding: 100px 0;
+  background: url(../../assets/images/triangle-dotted-mask.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+
+  .description {
+    width: 100%;
+    max-width: 940px;
+    margin: 40px auto 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+
+    p {
+      margin-bottom: 30px;
+    }
+  }
+}

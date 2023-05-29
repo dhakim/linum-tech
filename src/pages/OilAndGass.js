@@ -22,7 +22,7 @@ const OilAndGass = () => {
       <HeroSlider />
 
       <CategoryDetail 
-        heading = "Oil && Gasss"
+        heading = "Oil && Gass"
         description = "The offshore and commercial marine market is harsh on hardware and apparatus. We have components that withstand weather, corrosion, extreme temperature and tough and challenging environments. We carry special range of Tools, HSE Kits and Testing Equipment to cater the requirements of Oil and Gas Industry. We are also specialized in providing all types of electronic components used in the onshore or offshore setup in Oil & Gas industry."
         images = {images}
       />

@@ -1,6 +1,7 @@
 import React from 'react';
 import './CategoryDetail.scss';
 import SectionHeading from '../SectionHeading/SectionHeading';
+import arrowsImg from '../../assets/images/arrows-line.svg';
 
 const CategoryDetail = ({heading, description, images}) => {
   return(
@@ -13,6 +14,8 @@ const CategoryDetail = ({heading, description, images}) => {
               <div className="description-text">
                 <p>{description}</p>
               </div>
+
+              <img src={arrowsImg} alt="arrorws" />
             </div>
 
             <div className={`medias ${images.length > 1 ? 'media-width-multiple-images' : ''}`}>

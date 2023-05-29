@@ -9,7 +9,7 @@ const NavListItems = [
     subMenu: [
       {
         navItem: 'Oil and Gas',
-        url: '/oil-and-gass'
+        url: '/industries/oil-and-gass'
       },
       {
         navItem: 'Construction',
@@ -38,28 +38,48 @@ const NavListItems = [
     class: 'has-submenu',
     subMenu: [
       {
-        navItem: 'Oil and Gas',
-        url: '/oil-and-gas'
+        navItem: 'Electronic Components',
+        url: '/products/electronic-components'
       },
       {
-        navItem: 'Construction',
-        url: '/construction'
+        navItem: 'Connectors',
+        url: '/products/connectors'
       },
       {
-        navItem: 'Education',
-        url: '/education'
+        navItem: 'Cables & Wires',
+        url: '/products/connectors'
       },
       {
-        navItem: 'Utilities',
-        url: '/utilities'
+        navItem: 'Test Equipment',
+        url: '/products/connectors'
       },
       {
-        navItem: 'Defense',
-        url: '/defense'
+        navItem: 'Automation',
+        url: '/products/connectors'
       },
       {
-        navItem: 'Transportation',
-        url: '/transportation'
+        navItem: 'Maintenance Safety & ESD',
+        url: '/products/connectors'
+      },
+      {
+        navItem: 'Tools & Soldering',
+        url: '/products/connectors'
+      },
+      {
+        navItem: 'Thermal Management',
+        url: '/products/connectors'
+      },
+      {
+        navItem: 'Mechanical Components',
+        url: '/products/connectors'
+      },
+      {
+        navItem: 'Power',
+        url: '/products/connectors'
+      },
+      {
+        navItem: 'Development Boards and Kits',
+        url: '/products/connectors'
       },
     ]
   },

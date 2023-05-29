@@ -29,4 +29,13 @@
       background-color: #001750;
     }
   }
+
+  &.center {
+    display: block;
+    text-align: center;
+
+    .icon-container {margin: 0 auto;}
+
+    h2:after {margin: 20px auto 0;}
+  }
 }

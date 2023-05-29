@@ -18,7 +18,7 @@ const CategoryDetail = () => {
             </div>
 
             <div className="medias">
-              
+              <div className=""></div>
             </div>
           </div>
         </div>

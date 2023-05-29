@@ -1,0 +1,145 @@
+.header {
+  z-index: 1000;
+  position: relative;
+  .top-bar {
+    background: linear-gradient(90deg, #001750 34.23%, #4798C8 100%);
+
+    .contact-info {
+      height: 60px;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      gap: 24px;
+      
+      a {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+
+        &:hover {
+          color: #F4CD30;
+        }
+      }
+    }
+  }  
+
+  .navigation-bar {
+    background-color: #001750;
+    height: 88px;
+    
+    .logo {
+      position: absolute;
+      left: 0;
+      top: -49px;
+    }
+
+    .navigation {
+      ul.menu {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 32px;
+
+        li {
+          list-style: none;
+          position: relative;
+
+          a {
+            font-size: 17px;
+            font-weight: 500;
+            color: #ffffff;
+            padding: 33px 0;
+            display: block;
+
+            &:hover {
+              color: #F4CD30;
+            }
+          }
+
+          &.has-submenu {
+            padding-right: 12px;
+
+            > a {
+              position: relative;
+
+              &:before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                transform: translateY(-4px);
+                left: calc(100% + 7px);
+                width: 12px;
+                height: 12px;
+                background-image: url(../../assets/images/arrow-down-white.svg);
+                background-position: center;
+                background-repeat: no-repeat;
+                
+              }
+            }
+
+            .submenu {
+              position: absolute;
+              z-index: 10;
+              width: 192px;
+              border-radius: 6px;
+              background-color: #FFDC51;
+              padding: 7px 0;
+              margin-top: -1px;
+              display: none;
+
+              li {
+                display: block;
+
+                a {
+                  border-bottom: 1px solid #D9B730;
+                  display: flex;
+                  gap: 8px;
+                  padding: 10px 14px;
+                  color: #001750;
+
+                  &:hover {
+                    background-color: #D9B730;
+                  }
+                }
+
+                &:last-child a {
+                  border-bottom: none;
+                }
+              }
+            }
+
+            &:hover {
+              & > a:before {
+                background-image: url(../../assets/images/arrow-down-yellow.svg);
+              }
+
+              .submenu {display: block;}
+            }
+          }
+
+          &.button {
+            a {
+              width: 151px;
+              height: 52px;
+              border-radius: 39px;
+              padding: 15px 15px 17px;
+              background-color: #54AFE6;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+
+            &:hover a {
+              background-color: #FFDC51;
+              color: #001750;
+            }
+          }
+        }
+      }
+    }
+  }
+}

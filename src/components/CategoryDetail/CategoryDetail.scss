@@ -1,0 +1,25 @@
+.category-detail-section {
+  padding: 100px 0;
+
+  .content-row {
+    display: flex;
+    gap: 60px;
+
+    .description {
+      flex: 1;
+
+      .description-text {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #3D3E40;
+      }
+    }
+
+    .medias {
+      flex: 1;
+      min-height: 742px;
+      background-color: #FFDE59;
+      padding: 24px;
+    }
+  }
+}

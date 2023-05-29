@@ -2,23 +2,29 @@ import React from 'react';
 import './CategoryDetail.scss';
 import SectionHeading from '../SectionHeading/SectionHeading';
 
-const CategoryDetail = () => {
+const CategoryDetail = ({heading, description, images}) => {
   return(
     <React.Fragment>
       <section className="category-detail-section">
         <div className="container">
           <div className="content-row">
             <div className="description">
-              <SectionHeading />
+              <SectionHeading heading={heading} />
               <div className="description-text">
-                <p>
-                  The offshore and commercial marine market is harsh on hardware and apparatus. We have components that withstand weather, corrosion, extreme temperature and tough and challenging environments. We carry special range of Tools, HSE Kits and Testing Equipment to cater the requirements of Oil and Gas Industry. We are also specialized in providing all types of electronic components used in the onshore or offshore setup in Oil & Gas industry.
-                </p>
+                <p>{description}</p>
               </div>
             </div>
 
-            <div className="medias">
-              <div className=""></div>
+            <div className={`medias ${images.length > 1 ? 'media-width-multiple-images' : ''}`}>
+              <div className={`media-wrapper ${images.length > 1 ? 'multiple' : ''}`}>
+                {
+                  images.map((item) => (
+                    <div className="img-holder">
+                      <img src={item} alt="image" />
+                    </div>
+                  ))
+                }
+              </div>
             </div>
           </div>
         </div>

@@ -9,27 +9,27 @@ const NavListItems = [
     subMenu: [
       {
         navItem: 'Oil and Gas',
-        url: '/industries/oil-and-gass'
+        url: '/industries/oil-and-gas'
       },
       {
         navItem: 'Construction',
-        url: '/construction'
+        url: '/industries/construction'
       },
       {
         navItem: 'Education',
-        url: '/education'
+        url: '/industries/education'
       },
       {
         navItem: 'Utilities',
-        url: '/utilities'
+        url: '/industries/utilities'
       },
       {
         navItem: 'Defense',
-        url: '/defense'
+        url: '/industries/defense'
       },
       {
         navItem: 'Transportation',
-        url: '/transportation'
+        url: '/industries/transportation'
       },
     ]
   },

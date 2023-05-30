@@ -1,0 +1,66 @@
+.contact-section{
+  padding: 100px 0;
+  display: flex;
+  gap: 80px;
+
+  .contact-form-wrapper{
+    flex: 1;
+  }
+
+  .contact-information {
+    width: 410px;
+    background: url(../../assets/images/email-faded.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 410px;
+    padding-top: 18px;
+
+    h3 {
+      color: #001750;
+      font-size: 34px;
+      font-weight: 700;
+      position: relative;
+      margin-bottom: 0;
+      padding-top: 19px;
+      margin-bottom: 54px;
+
+      &:after {
+        content: '';
+        display: block;
+        width: 100px;
+        height: 7px;
+        margin-top: 10px;
+        background-color: #001750;
+      }
+    }
+
+    .address {
+      font-size: 18px;
+      margin-bottom: 52px;
+    }
+
+    .contact-info-wrapper {
+      .contact-info {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        margin-bottom: 28px;
+
+        .icon {
+          width: 38px;
+          text-align: center;
+        }
+
+        a {
+          font-size: 16px;
+          color: #001750;
+          font-weight: 500;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

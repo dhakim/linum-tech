@@ -38,3 +38,11 @@ $grey: #E7E7E7;
 a {
   text-decoration: none;
 }
+
+.flex {
+  display: flex;
+
+  &.justify-end {
+    justify-content: end;
+  }
+} 

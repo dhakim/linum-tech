@@ -1,0 +1,21 @@
+.btn {
+  min-width: 172px;
+  height: 54px;
+  border-radius: 70px;
+  background-color: #001750;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+
+  &:hover {
+    background-color: #54AFE6;
+  }
+
+  &:focus {outline: none;}
+}

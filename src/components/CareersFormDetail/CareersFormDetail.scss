@@ -1,0 +1,39 @@
+.careers-section {
+  padding: 100px 0;
+
+  .form-instructions {
+    margin-bottom: 60px;
+    text-align: center;
+
+    h4 {
+      font-size: 28px;
+      line-height: 28px;
+      color: #001750;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.form-section {
+  margin-bottom: 60px;
+
+  h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #001750;
+    line-height: 28px;
+    border-bottom: 1px solid #E7E7E7;
+    margin-bottom: 36px;
+    padding-bottom: 13px;
+  }
+
+  .form-row {
+    display: flex;
+    gap: 24px;
+
+    .item {
+      flex: 1;
+    }
+  }
+}

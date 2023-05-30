@@ -89,11 +89,11 @@ const NavListItems = [
   },
   {
     navItem: 'Careers',
-    url: '/'
+    url: '/careers'
   },
   {
     navItem: 'Contact Us',
-    url: '/'
+    url: '/contact'
   },
   {
     navItem: 'Distrelec',

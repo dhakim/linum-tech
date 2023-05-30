@@ -3,7 +3,10 @@ import './CareersFormDetail.scss';
 import TextField from '../TextField/TextField';
 import TextArea from '../TextArea/TextArea';
 import Select from '../Select/Select';
-
+import DatePickerCalendar from '../DatePickerCalendar/DatePickerCalendar';
+import Upload from '../FileUploader/FileUploader';
+import FileUpload from '../FileUploader/FileUploader';
+import Button from '../Button/Button';
 
 
 const CareerForm = () => {
@@ -126,7 +129,7 @@ const CareerForm = () => {
 
           <div className="form-row">
             <div className="item">
-              <TextField label="Address *" name="address" />
+              <DatePickerCalendar label='Date of Birth *' />
             </div>
 
             <div className="item">
@@ -153,6 +156,17 @@ const CareerForm = () => {
 
           </div>
         </div>
+
+        <div className="form-section">
+          <h3>Upload Resume / CV</h3>
+          <h5 className="helping-text">(Only .doc, .docx or .pdf files are allowed)</h5>
+          <FileUpload />
+        </div>
+
+        <div className="flex justify-end">
+          <Button label="Submit" />
+        </div>
+
       </form>
     </React.Fragment>
   )

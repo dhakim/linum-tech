@@ -25,7 +25,7 @@ const Industries = () => {
         console.log('${industryTxt}');
       })
       .catch((error) => console.log(error));
-  }, []);
+  }, [industryTxt]);
 
   return (
     <>

@@ -12,7 +12,7 @@ const OurPartners = ({heading, sectionID, isHeadingCenter, partnerLogos}) => {
             {
               partnerLogos.map((item, index) => (
                 <div key={index} className="partner-logo-wrapper" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                  <img src={item} alt='Partner Logo' />
+                  <img src={item.logo} alt='Partner Logo' />
                 </div>
               ))
             }

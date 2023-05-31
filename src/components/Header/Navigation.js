@@ -9,7 +9,7 @@ const Navigation = () => {
       <ul className="menu">
         {
           navListItems.map((item, index) => (
-            <li key={index} className={item.class}>
+            <li key={index} className={item.class} data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
               <Link to={item.url}>{item.navItem}</Link>
 
               {

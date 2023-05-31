@@ -13,12 +13,12 @@ const Header = () => {
       <div className="top-bar">
         <div className="container">
           <div className="contact-info">
-            <a href="mailto:info@linumtech.com">
+            <a href="mailto:info@linumtech.com" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
               <img src={emailIcon} alt="Email" />
               info@linumtech.com
             </a>
             
-            <a href="tell:+971547864447">
+            <a href="tell:+971547864447" data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
               <img src={phoneIcon} alt="Mobile" />
               +971 54 786 4447
             </a>
@@ -28,7 +28,7 @@ const Header = () => {
     
       <div className="navigation-bar">
         <div className="container">
-          <div className="logo">
+          <div className="logo" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
             <Link to='/'>
               <img src={logo} alt="Logo" />
             </Link>

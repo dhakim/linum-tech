@@ -12,7 +12,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="container">
           <div className="footer-content">
-            <div className="copyrights">
+            <div className="copyrights" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
               Copyrights {new Date().getFullYear()} © <Link to="/">www.linumtech.com</Link>
             </div>
 

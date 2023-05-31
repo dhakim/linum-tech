@@ -10,8 +10,8 @@ const IntroBlock  = () => {
         <div className="container">
           <div className="content-wrapper">
             {
-              IntroBlockData.map((item)=>(
-                <div className={`card ${item.color}`}>
+              IntroBlockData.map((item, key)=>(
+                <div className={`card ${item.color}`} key={key} data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                   <img src={item.icon} alt={item.heading} />
                   <h3>{item.heading}</h3>
                   <p>{item.description}</p>

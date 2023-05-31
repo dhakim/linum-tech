@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProductDetail.scss';
 import SectionHeading from '../SectionHeading/SectionHeading';
+import dottedTriangle from '../../assets/images/triangle-dotted-mask.svg';
 
 const ProductDetail = ({
   heading, 
@@ -9,6 +10,9 @@ const ProductDetail = ({
   return(
     <React.Fragment>
       <section className="product-detail-section">
+        <div className="bg-dotted-triangle">
+          <img src={dottedTriangle} alt="triable" />
+        </div>
         <div className="container">
           <SectionHeading 
             heading = {heading}

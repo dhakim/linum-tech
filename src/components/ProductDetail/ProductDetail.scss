@@ -1,8 +1,12 @@
 .product-detail-section {
   padding: 100px 0;
-  background: url(../../assets/images/triangle-dotted-mask.svg);
-  background-position: center left;
-  background-repeat: no-repeat;
+  position: relative;
+
+  .bg-dotted-triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
   .description {
     width: 100%;
@@ -11,6 +15,8 @@
     text-align: center;
     font-size: 18px;
     line-height: 36px;
+    position: relative;
+    z-index: 10;
 
     p {
       margin-bottom: 30px;

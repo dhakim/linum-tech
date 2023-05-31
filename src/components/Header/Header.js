@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './Header.scss';
 import emailIcon from '../../assets/images/email.svg';
 import phoneIcon from '../../assets/images/mobile.svg';
@@ -8,8 +8,16 @@ import Navigation from './Navigation';
 
 
 const Header = () => {
+  const [scroll, setScroll] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 60);
+    });
+  }, []);
+
   return (
-    <header className="header">
+    <header className={`header ${scroll ? 'sticky' : ''}`}>
       <div className="top-bar">
         <div className="container">
           <div className="contact-info">

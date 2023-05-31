@@ -1,6 +1,7 @@
 .header {
   z-index: 1000;
   position: relative;
+
   .top-bar {
     background: linear-gradient(90deg, #001750 34.23%, #4798C8 100%);
 
@@ -33,7 +34,7 @@
     
     .logo {
       position: absolute;
-      left: 0;
+      left: 20px;
       top: -49px;
     }
 
@@ -143,6 +144,22 @@
             }
           }
         }
+      }
+    }
+  }
+
+  &.sticky {
+    .navigation-bar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      transition: 0.3s ease all;
+    
+      .logo {
+        top: 5px;
+
+        a img {height: 78px; transition: 0.3s ease all;}
       }
     }
   }

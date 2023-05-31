@@ -11,7 +11,7 @@ const ProductDetail = ({
     <React.Fragment>
       <section className="product-detail-section">
         <div className="bg-dotted-triangle">
-          <img src={dottedTriangle} alt="triable" />
+          <img src={dottedTriangle} alt="triable" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" />
         </div>
         <div className="container">
           <SectionHeading 
@@ -19,7 +19,7 @@ const ProductDetail = ({
             isHeadingCenter = {true}
           />
 
-          <div className="description">{description}</div>
+          <div className="description" data-aos="up" data-aos-delay="200" data-aos-duration="1000">{description}</div>
         </div>
       </section>
     </React.Fragment>

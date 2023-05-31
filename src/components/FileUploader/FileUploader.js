@@ -19,14 +19,14 @@ const FileUpload = () => {
     <React.Fragment>
       <label className="file-upload">
         <input type="file" onChange={onUpload} name="fileUpload" />
-        <img src={uploadIcon} alt="upload" />
-        <h4>Drag & Drop File here</h4>
-        <h5>or</h5>
-        <span className="upload-btn">Browse File</span>
+        <img src={uploadIcon} alt="upload" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" />
+        <h4 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Drag & Drop File here</h4>
+        <h5 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">or</h5>
+        <span className="upload-btn" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Browse File</span>
       </label>
 
       {showFileName ? (
-        <div class="uploaded-file">
+        <div class="uploaded-file" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
           <img src={FileUploadIcon} alt="file" />
           {fileName}
           <span className="close" onClick={() => setShowFileName(false)}>

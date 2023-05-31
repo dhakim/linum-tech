@@ -6,11 +6,11 @@ const SectionHeading = ({heading, isHeadingCenter, icon}) => {
   return(
     <React.Fragment>
       <div className={`section-heading ${isHeadingCenter ? 'center' : ''}`}>
-        <div className="icon-container">
+        <div className="icon-container" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
           <img src={icon ? icon : headingIcon} alt="icon" />
         </div>
         
-        <h2>{heading}</h2>
+        <h2 data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">{heading}</h2>
       </div>
     </React.Fragment>
   )

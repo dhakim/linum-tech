@@ -11,6 +11,7 @@ const IndustriesTemplate = () => {
     let { industryTxt } = useParams();
     let industry = industriesData.industries[`${industryTxt}`];
     const images = [
+        industry.image,
         industry.image
     ]
 

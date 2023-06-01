@@ -1,0 +1,358 @@
+{
+    "products": {
+        "electronic-components": {
+            "title": "Electronic Components",
+            "description": "Found in almost every electrical device in the world,We stock components from the industry-leading manufacturers and every item in our components range is available for fast and efficient delivery. Our selection of components aims to cater for all projects and applications.\n\nWe have a wide range of products when it comes to sourcing, detecting and controlling light. These electrical-to-optical and optical-to-electrical transducers and instruments will cover all your optronics needs.",
+            "image": "/assets/images/oil-gass.jpg",
+            "components": 
+            [
+                { "comp": "TFT (Thin Film Transistor)" }, 
+                { "comp": "LED (Light Emitting Diodes)" }, 
+                { "comp": "VFD (Vacuum Fluorescent Display)" },
+                { "comp": "OLED (Organic Light Emitting Diodes)" },
+                { "comp": "Capacitors" },
+                { "comp": "Resistor" },
+                { "comp": "Ferrites" },
+                { "comp": "Potentiometer" },
+                { "comp": "Inductor" },
+                { "comp": "Memory ICs" },
+                { "comp": "Dsicrete Semiconductor" },
+                { "comp": "Integrated ICs" },
+                { "comp": "Frequency Control & Timings" }
+            ],
+            "related-manufacturers":
+            [
+                { "rman": "Vishay" }, 
+                { "rman": "RND Components" }, 
+                { "rman": "Intelligent LED Solutions" },
+                { "rman": "Everlight Electronics" },
+                { "rman": "Apem, Diotec" },
+                { "rman": "ST" },
+                { "rman": "Littelfuse" },
+                { "rman": "KEMET" },
+                { "rman": "Panasonic" },
+                { "rman": "Würth Elektronik" }
+            ],
+            "logos": 
+            [
+                { "logo": "/assets/images/outStrength/3M.png" } ,
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" }
+            ]
+        },
+        "connectors": {
+            "title": "Connectors",
+            "description": "Connectors are essential electrical components used every day in most electrical and electronic devices. Finding the right connector for your project depends on the project itself or the environment that you need the connector for. Distrelec offer an extensive range of electrical and industrial connectors to suit your application.",
+            "image": "/assets/images/oil-gass.jpg",
+            "components": 
+            [
+                { "comp": "Circular Connectors" },
+                { "comp": "D Sub Connectors" },
+                { "comp": "Board to Board Connectors" },
+                { "comp": "Power Connectors" },
+                { "comp": "RF/ Coaxial Connectors" },
+                { "comp": "Rectangular Cnnectors" },
+                { "comp": "Terminal Blocks" },
+                { "comp": "Wire to Board/Wire to Wire Connectors" },
+                { "comp": "Audio/Video/Computer Connectors" },
+                { "comp": "Accessories" } 
+            ],
+            "related-manufacturers":
+            [
+                { "rman": "Molex" }, 
+                { "rman": "RND Connect" }, 
+                { "rman": "TE Connectivity" },
+                { "rman": "HARTING" },
+                { "rman": "Phoenix Contact" }
+            ],
+            "logos": 
+            [
+                { "logo": "/assets/images/outStrength/3M.png" } ,
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" }
+            ]
+        },
+        "cables-and-wires": {
+            "title": "Cables & Wires",
+            "description": "Linum Technologies offer a wide range of cables and wires suited to multiple applications. Whether it’s A/V, data, RF, IDC, flat, mains or equipment wires, we have the product for you. Our range of products is suited for a large variety of testing environments and situations that require more flexible or adaptable cabling / wiring. We also offer an assortment of accessories ranging from: glands, markers, entry systems, tubing and trunks.",
+            "image": "/assets/images/oil-gass.jpg",
+            "components": 
+            [
+                { "comp": "A/V, Data & RF Cables" },
+                { "comp": "Equipment Wires" },
+                { "comp": "IDC/ Flat Cables" },
+                { "comp": "Multicore Cables" },
+                { "comp": "Cables Trunks and Conduits" },
+                { "comp": "Cables Ties & Cable Support" },
+                { "comp": "Cable Glands and Accesorries" },
+                { "comp": "Cable & Wire Markers" },
+                { "comp": "Cable Assemblies" },
+                { "comp": "Cable Entry Systems" } 
+            ],
+            "related-manufacturers":
+            [
+                { "rman": "Molex" }, 
+                { "rman": "HellermannTyton" }, 
+                { "rman": "Alpha Wire" },
+                { "rman": "Lapp" },
+                { "rman": "RND Cable" }
+            ],
+            "logos": 
+            [
+                { "logo": "/assets/images/outStrength/3M.png" } ,
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" }
+            ]    
+        },
+        "test-equipment": {
+            "title": "Test Equipment",
+            "description": "Any successful industrial operation depends on the skills of its employees as well as the performance of its vital machinery. In order to gather data on your technology as well as to further develop and optimise your production line, test and measurement instruments are instrumental.\n\nThere are different areas that can be tested and measured, and hence just as many types of test instruments. Amongst them, multimeters, oscilloscopes and thermal imagers are some of the most popular and well known, however, our product assortment includes many more test and measurement instruments to suit the needs of maintenance technicians in different industries. Testing can focus on different units such as energy, power and capacitance.",
+            "image": "/assets/images/oil-gass.jpg",
+            "components": 
+            [
+                { "comp": "Multimeters" },
+                { "comp": "Clamp Meters" },
+                { "comp": "Oscilloscope" },
+                { "comp": "Function Generators" },
+                { "comp": "Power Supplies" },
+                { "comp": "Network, Data & Communication" },
+                { "comp": "Thermal Imagers" },
+                { "comp": "Mechanical Test Instrument" }
+            ],
+            "related-manufacturers":[],
+            "logos": 
+            [
+                { "logo": "/assets/images/outStrength/3M.png" } ,
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" }
+            ]   
+        },
+        "automation": {
+            "title": "Automation",
+            "description": "Distrelec has used more than four decades of experience in the components industry to understand what our customers want and need. We are confident we can cater to all your automation needs.\n\nWe stock a broad range of control components, including counters, timers, temperature controllers and process instruments. Operating panels, known collectively as Human Machine Interfaces, are used to input information, which is translated into signals for machines, while process control equipment is essential for managing and monitoring automation equipment.Industrial robots and robotics gripper kits are also available.Commanding switches, lights, buttons and emergency stop switches, all of which give instructions and signals to automation applications, are included in our range, along with solenoids and actuators. These control the movement of mechanisms or systems that require automation.",
+            "image": "/assets/images/oil-gass.jpg",
+            "components": 
+            [
+                { "comp": "Automation Signalling" },
+                { "comp": "Control Components" },
+                { "comp": "Human Machine Interfaces" },
+                { "comp": "Industrial Communication" },
+                { "comp": "Industrial Robots" },
+                { "comp": "Industrial Switches" },
+                { "comp": "Pneumatics" },
+                { "comp": "Process Control" },
+                { "comp": "Programmable Logic Controllers" },
+                { "comp": "Solenoids & Actuators" } 
+            ],
+            "related-manufacturers":
+            [
+                { "rman": "Festo" }, 
+                { "rman": "Siemens" }, 
+                { "rman": "Werma" },
+                { "rman": "Moxa" },
+                { "rman": "Schneider Electric" }
+            ],
+            "logos": 
+            [
+                { "logo": "/assets/images/outStrength/3M.png" } ,
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" }
+            ]  
+        },
+        "maintenance-safety-and-esd": {
+            "title": "Maintenance Safety & ESD",
+            "description": "Linum Technologies LLC provides an extensive range of Maintenance, Safety, ESD Control and Clean Room components.",
+            "image": "/assets/images/oil-gass.jpg",
+            "components": 
+            [
+                { "comp": "Chemicals, Tapes & Adhesives" },
+                { "comp": "Cleaning Equipment" },
+                { "comp": "Cleanroom" },
+                { "comp": "ESD" },
+                { "comp": "Label Printers & Accessories" },
+                { "comp": "Locks & Lockouts" },
+                { "comp": "Personal Protection Equipment" },
+                { "comp": "Safety Marking" },
+                { "comp": "Tran" }
+            ],
+            "related-manufacturers":
+            [
+                { "rman": "3M" }, 
+                { "rman": "Brady" }, 
+                { "rman": "RND Lab" },
+                { "rman": "Tesa" },
+                { "rman": "Eurostat, Kasp" },
+                { "rman": "Abus" },
+                { "rman": "Chemtronics, Peltor, Delta Plus" }
+            ],
+            "logos": 
+            [
+                { "logo": "/assets/images/outStrength/3M.png" } ,
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" }
+            ]  
+        },
+        "tools-and-soldering": {
+            "title": "Tools & Soldering",
+            "description": "Distrelec stock an extensive range of tools and soldering products ideal for a wide range of projects and applications",
+            "image": "/assets/images/oil-gass.jpg",
+            "components": 
+            [
+                { "comp": "Hand tools" },
+                { "comp": "Power tools" },
+                { "comp": "Dispensing equipment" },
+                { "comp": "Fume extraction" },
+                { "comp": "Soldering" },
+                { "comp": "Soldering irons" },
+                { "comp": "Tool storage" },
+                { "comp": "Cordless screwdrivers" },
+                { "comp": "Corded drills" },
+                { "comp": "Cordless drills" },
+                { "comp": "Engravers" },
+                { "comp": "Grinders" },
+                { "comp": "Heat guns" },
+                { "comp": "Lathes" },
+                { "comp": "Power saws" },
+                { "comp": "Vacuum cleaners" }
+            ],
+            "related-manufacturers":
+            [
+                { "rman": "Wiha" },
+                { "rman": "RND Lab" },
+                { "rman": "C.K Tools" },
+                { "rman": "Weller" },
+                { "rman": "Wera,  Ersa" },
+                { "rman": "Metcal , Dremel" },
+                { "rman": "Ruko" },
+                { "rman": "Proxxon" },
+                { "rman": "Steinel" }
+            ],
+            "logos": 
+            [
+                { "logo": "/assets/images/outStrength/3M.png" } ,
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" }
+            ]  
+        },
+        "thermal-management": {
+            "title": "Thermal Management",
+            "description": "When dealing with a lot of circuitry and high-functioning electrical components you need to have good thermal management. This can come in different ways, but the most common form would be electrical fans for heating, ventilation and air conditioning. Distrelec, alongside these types of products, also have an array of products in heat-conducting films/foils as well as heat sinks and thermal compounds.",
+            "image": "/assets/images/oil-gass.jpg",
+            "components": 
+            [
+                { "comp": "Thermal Compounds & Adhesives" },
+                { "comp": "Heat Sinks & Fans" },
+                { "comp": "Heat Conducting Films/Foils" },
+                { "comp": "Fans For Heating, Ventilation & Air Conditioning" },
+                { "comp": "Fan Filter Assemblies, Controllers & Components" },
+                { "comp": "Axial Fans" },
+                { "comp": "Blowers" },
+                { "comp": "Fan Heaters" },
+                { "comp": "Peltier Components & Heating Foils" }
+            ],
+            "related-manufacturers":
+            [
+                { "rman": "ebmpapst" },
+                { "rman": "Sunon" },
+                { "rman": "Sanyo Denki" },
+                { "rman": "Fischer Elektronik" },
+                { "rman": "RND Components" }
+            ],
+            "logos": 
+            [
+                { "logo": "/assets/images/outStrength/3M.png" } ,
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" }
+            ]  
+        },
+        "mechanical-components": {
+            "title": "Mechanical Components",
+            "description": "Mechanical components are the physical moving parts of appliances and projects that are sometimes the key aspect or purpose of specific systems. Distrelec stock an array of mechanical components for a range of purposes. Some of which include: gas springs, telescopic and linear motions, magnets, hinges and flexible mounting systems.",
+            "image": "/assets/images/oil-gass.jpg",
+            "components": 
+            [
+                { "comp": "Ball Bearings" },
+                { "comp": "Casters / Wheels" },
+                { "comp": "Telescopic & Linear Motion Slides" },
+                { "comp": "Screws & Dowels" },
+                { "comp": "Vibration Dampers" },
+                { "comp": "Hinges / Locks" },
+                { "comp": "Chains / Ropes" },
+                { "comp": "Flexible Mounting Systems" },
+                { "comp": "Rubber Feet" },
+                { "comp": "O-rings / Shaft Seals" },
+                { "comp": "Mounting Accessories & Spacers" },
+                { "comp": "Magnets" }
+            ],
+            "related-manufacturers":
+            [
+                { "rman": "Bossard" },
+                { "rman": "Accuride" },
+                { "rman": "Simrit" },
+                { "rman": "nVent Schroff" },
+                { "rman": "Tente" },
+                { "rman": "Triax" }
+            ],
+            "logos": 
+            [
+                { "logo": "/assets/images/outStrength/3M.png" } ,
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" }
+            ]  
+        },
+        "power": {
+            "title": "Power",
+            "description": "Whether it's batteries for your small appliances or power supplies for your office machines, Distrelec have you covered with our extensive range of power products. The assortment contains products from industry-leading manufacturers. Distrelec’s range of power products includes a range of external plug-in adapters and power supply accessories ideal for domestic and commercial use.",
+            "image": "/assets/images/oil-gass.jpg",
+            "components": 
+            [
+                { "comp": "Batteries and Chargers" },
+                { "comp": "Converters" },
+                { "comp": "DIN-Rail Power Supplies" },
+                { "comp": "Industrial Wireless Chargers" },
+                { "comp": "Power Inverters / Converters" },
+                { "comp": "Rack Mounted Power Supplies" },
+                { "comp": "Switch Mode Power Supplies" },
+                { "comp": "Transformers" }
+            ],
+            "related-manufacturers":
+            [
+                { "rman": "Traco Power" },
+                { "rman": "MEAN WELL" },
+                { "rman": "XP Power" },
+                { "rman": "Recom" },
+                { "rman": "RND Power" }
+            ],
+            "logos": 
+            [
+                { "logo": "/assets/images/outStrength/3M.png" } ,
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" }
+            ]  
+        },
+        "development-boards-and-kits": {
+            "title": "Development Boards and Kits",
+            "description": "Our selection of development boards & kits provides models with all the configurations of power circuits, programming interfaces, input modes and output modes and LEDs to help you with robust and reliable testing. Our range of development boards & kits is sourced from leading brands around the world, such as SparkFun Electronics, Adafruit, Velleman, Mikroelektronika and Seeed Studio to provide our clients with excellence and great value for money.",
+            "image": "/assets/images/oil-gass.jpg",
+            "components":[],
+            "related-manufacturers":[],
+            "logos": 
+            [
+                { "logo": "/assets/images/outStrength/3M.png" } ,
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" },
+                { "logo": "/assets/images/outStrength/3M.png" }
+            ]  
+        }
+    }
+}

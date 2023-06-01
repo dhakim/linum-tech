@@ -9,6 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import OilAndGass from "./pages/OilAndGass";
 import IndustriesTemplate from "./pages/Industries";
+import ProductsTemplate from "./pages/Products";
 
 function App() {
   useEffect(() => {
@@ -23,7 +24,8 @@ function App() {
           <Route path="/home" element={ <Home />} />
           {/* <Route path="/industries/oil-and-gass" element={ <OilAndGass  /> } /> */}
           <Route path="/industries/:industryTxt" Component={ IndustriesTemplate } />
-          <Route path="/products/electronic-components" element={<ElectronicComponents />} />
+          {/* <Route path="/products/electronic-components" element={<ElectronicComponents />} /> */}
+          <Route path="/products/:productTxt" Component={ ProductsTemplate } />
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

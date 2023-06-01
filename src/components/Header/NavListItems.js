@@ -47,39 +47,39 @@ const NavListItems = [
       },
       {
         navItem: 'Cables & Wires',
-        url: '/products/connectors'
+        url: '/products/cables-and-wires'
       },
       {
         navItem: 'Test Equipment',
-        url: '/products/connectors'
+        url: '/products/test-equipment'
       },
       {
         navItem: 'Automation',
-        url: '/products/connectors'
+        url: '/products/automation'
       },
       {
         navItem: 'Maintenance Safety & ESD',
-        url: '/products/connectors'
+        url: '/products/maintenance-safety-and-esd'
       },
       {
         navItem: 'Tools & Soldering',
-        url: '/products/connectors'
+        url: '/products/tools-and-soldering'
       },
       {
         navItem: 'Thermal Management',
-        url: '/products/connectors'
+        url: '/products/thermal-management'
       },
       {
         navItem: 'Mechanical Components',
-        url: '/products/connectors'
+        url: '/products/mechanical-components'
       },
       {
         navItem: 'Power',
-        url: '/products/connectors'
+        url: '/products/power'
       },
       {
         navItem: 'Development Boards and Kits',
-        url: '/products/connectors'
+        url: '/products/development-boards-and-kits'
       },
     ]
   },

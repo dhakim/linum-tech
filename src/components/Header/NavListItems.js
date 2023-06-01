@@ -21,7 +21,7 @@ const NavListItems = [
       },
       {
         navItem: 'Utilities',
-        url: '/industries/utilities'
+        url: '/industries/utilities-and-grid'
       },
       {
         navItem: 'Defense',

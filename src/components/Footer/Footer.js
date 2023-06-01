@@ -12,11 +12,11 @@ const Footer = () => {
       <footer className="footer">
         <div className="container">
           <div className="footer-content">
-            <div className="copyrights" data-aos="fade-down" data-aos-offset="0" data-aos-delay="200" data-aos-duration="1000">
+            <div className="copyrights">
               Copyrights {new Date().getFullYear()} © <Link to="/">www.linumtech.com</Link>
             </div>
 
-            <div className="social-medias" data-aos="fade-down" data-aos-offset="0" data-aos-delay="200" data-aos-duration="1000">
+            <div className="social-medias">
               <a href="#"><img src={facebookIcon} alt="fb" /></a>
               <a href="#"><img src={instagramIcon} alt="instagram" /></a>
               <a href="#"><img src={twitterIcon} alt="twitter" /></a>

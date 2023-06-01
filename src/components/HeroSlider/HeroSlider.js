@@ -9,6 +9,7 @@ import slide1 from '../../assets/images/slides/slide-1.jpg';
 const HeroSlider = () => {
   return(
     <React.Fragment>
+      <div className="hero-section">
         <Carousel 
           autoPlay={true}
           infiniteLoop={true}
@@ -29,10 +30,15 @@ const HeroSlider = () => {
         </Carousel>
 
         <div className="hero-title" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
-          <h1>Sole Partner for <span>Distrelec</span></h1>
-          <a href="https://www.distrelec.biz/" target="_blank">www.distrelec.biz</a>
-          <p>your Gateway to Technology</p>
+          <div className="title-content">
+            <h1>Sole Partner for <span>Distrelec</span></h1>
+            <a href="https://www.distrelec.biz/" target="_blank">www.distrelec.biz</a>
+            <p>your Gateway to Technology</p>
+          </div>
         </div>
+      </div>
+
+        
     </React.Fragment>
   )
 }

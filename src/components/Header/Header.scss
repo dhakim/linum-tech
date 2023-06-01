@@ -36,14 +36,63 @@
       position: absolute;
       left: 20px;
       top: -49px;
+
+      // @media only screen and (max-width: 992px) {
+      //   top: 5px;
+
+      //   a img {
+      //     height: 78px;
+      //   }
+      // }
     }
 
     .navigation {
+      .hamburger {
+        display: none;
+
+        @media only screen and (max-width: 992px) {
+          display: block;
+          position: absolute;
+          right: 30px;
+          top: 30px;
+          cursor: pointer;
+
+          img { width: 30px; }
+        }
+      }
       ul.menu {
         display: flex;
         justify-content: end;
         align-items: center;
         gap: 32px;
+
+        .mobile-logo {
+          display: none;
+          padding: 20px;
+          border-bottom: 1px solid #0a225e;
+          margin-bottom: 32px;
+          width: 100%;
+
+          img {
+            width: 100px;
+          }
+
+          @media only screen and (max-width: 992px) {
+            display: block;
+          }
+        }
+
+        @media only screen and (max-width: 992px) {
+          position: fixed;
+          width: 260px;
+          flex-direction: column;
+          left: -262px;
+          top: 0;
+          bottom: 0;
+          background-color: #001750;
+          z-index: 100;
+          transition: 0.3s ease all;
+        }
 
         li {
           list-style: none;
@@ -141,6 +190,75 @@
             &:hover a {
               background-color: #FFDC51;
               color: #001750;
+            }
+          }
+        }
+
+        &.mobile-menu {
+          @media only screen and (max-width: 992px) {
+            left: 0;
+            gap: 0;
+            justify-content: left;
+            overflow-y: auto;
+            overflow-x: hidden;
+
+            &::-webkit-scrollbar {
+              width: 5px;
+              border-radius: 10px;
+            }
+            
+            /* Track */
+            &::-webkit-scrollbar-track {
+              background: #000; 
+            }
+             
+            /* Handle */
+            &::-webkit-scrollbar-thumb {
+              background: #3a6ab9; 
+            }
+            
+            li {
+              text-align: left;
+              display: block;
+              width: 100%;
+
+              a {
+                padding: 16px 20px;
+              }
+
+              &.button {
+                padding-top: 36px;
+                padding-left: 20px;
+              }
+
+              &.has-submenu {
+                a {
+                  &:before {
+                    left: calc(100% - 16px);
+                  }
+                }
+
+                &:hover {
+                  .submenu {
+                    position: static;
+                    background: none;
+                    width: 100%;
+                    padding-left: 12px;
+                    border-radius: 0;
+
+                    li {
+                      a {
+                        color: #fff;
+                        border-bottom: none;
+                        font-size: 14px;
+                        padding-left: 32px;
+
+                        img { display: none;}
+                      }
+                    }
+                  }
+                }
+              }
             }
           }
         }

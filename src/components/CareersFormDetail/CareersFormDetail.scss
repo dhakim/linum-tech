@@ -11,6 +11,10 @@
       color: #001750;
       font-weight: 700;
       margin-bottom: 10px;
+
+      @media only screen and (max-width: 767px) {
+        font-size: 22px;
+      }
     }
   }
 }
@@ -26,6 +30,10 @@
     border-bottom: 1px solid #E7E7E7;
     margin-bottom: 36px;
     padding-bottom: 13px;
+
+    @media only screen and (max-width: 767px) {
+      font-size: 22px;
+    }
   }
 
   .helping-text {
@@ -38,6 +46,10 @@
   .form-row {
     display: flex;
     gap: 24px;
+
+    @media only screen and (max-width: 767px) {
+      display: block;
+    }
 
     .item {
       flex: 1;

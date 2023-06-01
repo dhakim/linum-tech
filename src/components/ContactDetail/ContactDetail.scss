@@ -3,6 +3,10 @@
   display: flex;
   gap: 80px;
 
+  @media only screen and (max-width: 992px) {
+    display: block;
+  }
+
   .contact-form-wrapper{
     flex: 1;
   }
@@ -15,6 +19,12 @@
     background-size: 410px;
     padding-top: 18px;
 
+    @media only screen and (max-width: 767px) {
+      width: 100%;
+      min-height: 400px;
+      background-size: 310px !important;
+    }
+
     h3 {
       color: #001750;
       font-size: 34px;
@@ -23,6 +33,11 @@
       margin-bottom: 0;
       padding-top: 19px;
       margin-bottom: 54px;
+
+      @media only screen and (max-width: 767px) {
+        font-size: 24px;
+        margin-bottom: 24px;
+      }
 
       &:after {
         content: '';

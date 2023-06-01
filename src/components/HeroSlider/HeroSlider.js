@@ -20,12 +20,12 @@ const HeroSlider = () => {
           <div>
               <img src={slide1} alt="slide" />
           </div>
-          <div>
+          {/* <div>
               <img src={slide1} alt="slide" />
           </div>
           <div>
               <img src={slide1} alt="slide" />
-          </div>
+          </div> */}
         </Carousel>
 
         <div className="hero-title" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">

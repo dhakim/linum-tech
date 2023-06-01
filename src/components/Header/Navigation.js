@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logoArcIcon from '../../assets/images/logo-arc.svg';
 import navListItems from './NavListItems';
+import hamburgerIcon from '../../assets/images/hamburger.svg';
+import logo from '../../assets/images/logo.svg';
 
 const Navigation = () => {
+  const [navMobile, setNavMobile] = useState(false);
   return (
     <div className="navigation">
-      <ul className="menu">
+      <div className="hamburger" onClick={() => setNavMobile(!navMobile)}>
+        <img src={hamburgerIcon} alt="hamburger" />
+      </div>
+      <ul className={`menu ${navMobile ? 'mobile-menu' : ''}`}>
+        <div className="mobile-logo"><img src={logo} alt="logo" /></div>
         {
           navListItems.map((item, index) => (
             <li key={index} className={item.class} data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">

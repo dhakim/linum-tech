@@ -20,18 +20,18 @@
                 { "comp": "Integrated ICs" },
                 { "comp": "Frequency Control & Timings" }
             ],
-            "related-manufacturers":
+            "relatedmanufacturers":
             [
-                { "rman": "Vishay" }, 
-                { "rman": "RND Components" }, 
-                { "rman": "Intelligent LED Solutions" },
-                { "rman": "Everlight Electronics" },
-                { "rman": "Apem, Diotec" },
-                { "rman": "ST" },
-                { "rman": "Littelfuse" },
-                { "rman": "KEMET" },
-                { "rman": "Panasonic" },
-                { "rman": "Würth Elektronik" }
+                { "comp": "Vishay" }, 
+                { "comp": "RND Components" }, 
+                { "comp": "Intelligent LED Solutions" },
+                { "comp": "Everlight Electronics" },
+                { "comp": "Apem, Diotec" },
+                { "comp": "ST" },
+                { "comp": "Littelfuse" },
+                { "comp": "KEMET" },
+                { "comp": "Panasonic" },
+                { "comp": "Würth Elektronik" }
             ],
             "logos": 
             [
@@ -58,13 +58,13 @@
                 { "comp": "Audio/Video/Computer Connectors" },
                 { "comp": "Accessories" } 
             ],
-            "related-manufacturers":
+            "relatedmanufacturers":
             [
-                { "rman": "Molex" }, 
-                { "rman": "RND Connect" }, 
-                { "rman": "TE Connectivity" },
-                { "rman": "HARTING" },
-                { "rman": "Phoenix Contact" }
+                { "comp": "Molex" }, 
+                { "comp": "RND Connect" }, 
+                { "comp": "TE Connectivity" },
+                { "comp": "HARTING" },
+                { "comp": "Phoenix Contact" }
             ],
             "logos": 
             [
@@ -91,13 +91,13 @@
                 { "comp": "Cable Assemblies" },
                 { "comp": "Cable Entry Systems" } 
             ],
-            "related-manufacturers":
+            "relatedmanufacturers":
             [
-                { "rman": "Molex" }, 
-                { "rman": "HellermannTyton" }, 
-                { "rman": "Alpha Wire" },
-                { "rman": "Lapp" },
-                { "rman": "RND Cable" }
+                { "comp": "Molex" }, 
+                { "comp": "HellecompnTyton" }, 
+                { "comp": "Alpha Wire" },
+                { "comp": "Lapp" },
+                { "comp": "RND Cable" }
             ],
             "logos": 
             [
@@ -109,7 +109,7 @@
         },
         "test-equipment": {
             "title": "Test Equipment",
-            "description": "Any successful industrial operation depends on the skills of its employees as well as the performance of its vital machinery. In order to gather data on your technology as well as to further develop and optimise your production line, test and measurement instruments are instrumental.\n\nThere are different areas that can be tested and measured, and hence just as many types of test instruments. Amongst them, multimeters, oscilloscopes and thermal imagers are some of the most popular and well known, however, our product assortment includes many more test and measurement instruments to suit the needs of maintenance technicians in different industries. Testing can focus on different units such as energy, power and capacitance.",
+            "description": "Any successful industrial operation depends on the skills of its employees as well as the perfocompce of its vital machinery. In order to gather data on your technology as well as to further develop and optimise your production line, test and measurement instruments are instrumental.\n\nThere are different areas that can be tested and measured, and hence just as many types of test instruments. Amongst them, multimeters, oscilloscopes and thermal imagers are some of the most popular and well known, however, our product assortment includes many more test and measurement instruments to suit the needs of maintenance technicians in different industries. Testing can focus on different units such as energy, power and capacitance.",
             "image": "/assets/images/oil-gass.jpg",
             "components": 
             [
@@ -122,7 +122,7 @@
                 { "comp": "Thermal Imagers" },
                 { "comp": "Mechanical Test Instrument" }
             ],
-            "related-manufacturers":[],
+            "relatedmanufacturers":[],
             "logos": 
             [
                 { "logo": "/assets/images/outStrength/3M.png" } ,
@@ -148,13 +148,13 @@
                 { "comp": "Programmable Logic Controllers" },
                 { "comp": "Solenoids & Actuators" } 
             ],
-            "related-manufacturers":
+            "relatedmanufacturers":
             [
-                { "rman": "Festo" }, 
-                { "rman": "Siemens" }, 
-                { "rman": "Werma" },
-                { "rman": "Moxa" },
-                { "rman": "Schneider Electric" }
+                { "comp": "Festo" }, 
+                { "comp": "Siemens" }, 
+                { "comp": "Werma" },
+                { "comp": "Moxa" },
+                { "comp": "Schneider Electric" }
             ],
             "logos": 
             [
@@ -180,15 +180,15 @@
                 { "comp": "Safety Marking" },
                 { "comp": "Tran" }
             ],
-            "related-manufacturers":
+            "relatedmanufacturers":
             [
-                { "rman": "3M" }, 
-                { "rman": "Brady" }, 
-                { "rman": "RND Lab" },
-                { "rman": "Tesa" },
-                { "rman": "Eurostat, Kasp" },
-                { "rman": "Abus" },
-                { "rman": "Chemtronics, Peltor, Delta Plus" }
+                { "comp": "3M" }, 
+                { "comp": "Brady" }, 
+                { "comp": "RND Lab" },
+                { "comp": "Tesa" },
+                { "comp": "Eurostat, Kasp" },
+                { "comp": "Abus" },
+                { "comp": "Chemtronics, Peltor, Delta Plus" }
             ],
             "logos": 
             [
@@ -221,17 +221,17 @@
                 { "comp": "Power saws" },
                 { "comp": "Vacuum cleaners" }
             ],
-            "related-manufacturers":
+            "relatedmanufacturers":
             [
-                { "rman": "Wiha" },
-                { "rman": "RND Lab" },
-                { "rman": "C.K Tools" },
-                { "rman": "Weller" },
-                { "rman": "Wera,  Ersa" },
-                { "rman": "Metcal , Dremel" },
-                { "rman": "Ruko" },
-                { "rman": "Proxxon" },
-                { "rman": "Steinel" }
+                { "comp": "Wiha" },
+                { "comp": "RND Lab" },
+                { "comp": "C.K Tools" },
+                { "comp": "Weller" },
+                { "comp": "Wera,  Ersa" },
+                { "comp": "Metcal , Dremel" },
+                { "comp": "Ruko" },
+                { "comp": "Proxxon" },
+                { "comp": "Steinel" }
             ],
             "logos": 
             [
@@ -257,13 +257,13 @@
                 { "comp": "Fan Heaters" },
                 { "comp": "Peltier Components & Heating Foils" }
             ],
-            "related-manufacturers":
+            "relatedmanufacturers":
             [
-                { "rman": "ebmpapst" },
-                { "rman": "Sunon" },
-                { "rman": "Sanyo Denki" },
-                { "rman": "Fischer Elektronik" },
-                { "rman": "RND Components" }
+                { "comp": "ebmpapst" },
+                { "comp": "Sunon" },
+                { "comp": "Sanyo Denki" },
+                { "comp": "Fischer Elektronik" },
+                { "comp": "RND Components" }
             ],
             "logos": 
             [
@@ -292,14 +292,14 @@
                 { "comp": "Mounting Accessories & Spacers" },
                 { "comp": "Magnets" }
             ],
-            "related-manufacturers":
+            "relatedmanufacturers":
             [
-                { "rman": "Bossard" },
-                { "rman": "Accuride" },
-                { "rman": "Simrit" },
-                { "rman": "nVent Schroff" },
-                { "rman": "Tente" },
-                { "rman": "Triax" }
+                { "comp": "Bossard" },
+                { "comp": "Accuride" },
+                { "comp": "Simrit" },
+                { "comp": "nVent Schroff" },
+                { "comp": "Tente" },
+                { "comp": "Triax" }
             ],
             "logos": 
             [
@@ -324,13 +324,13 @@
                 { "comp": "Switch Mode Power Supplies" },
                 { "comp": "Transformers" }
             ],
-            "related-manufacturers":
+            "relatedmanufacturers":
             [
-                { "rman": "Traco Power" },
-                { "rman": "MEAN WELL" },
-                { "rman": "XP Power" },
-                { "rman": "Recom" },
-                { "rman": "RND Power" }
+                { "comp": "Traco Power" },
+                { "comp": "MEAN WELL" },
+                { "comp": "XP Power" },
+                { "comp": "Recom" },
+                { "comp": "RND Power" }
             ],
             "logos": 
             [
@@ -345,7 +345,7 @@
             "description": "Our selection of development boards & kits provides models with all the configurations of power circuits, programming interfaces, input modes and output modes and LEDs to help you with robust and reliable testing. Our range of development boards & kits is sourced from leading brands around the world, such as SparkFun Electronics, Adafruit, Velleman, Mikroelektronika and Seeed Studio to provide our clients with excellence and great value for money.",
             "image": "/assets/images/oil-gass.jpg",
             "components":[],
-            "related-manufacturers":[],
+            "relatedmanufacturers":[],
             "logos": 
             [
                 { "logo": "/assets/images/outStrength/3M.png" } ,

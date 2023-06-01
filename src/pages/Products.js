@@ -29,6 +29,14 @@ const ProductsTemplate = () => {
         heading = "Components List"
         componentList = { product.components }
       />
+
+      {/* need to change the template of this maybe */}
+      <ProductComponents 
+        heading = "Related Manufacturers"
+        componentList = { product.relatedmanufacturers }
+      />
+
+      {/* for products - we directly need to show logos without heading etc. */}
       <OurPartners 
         heading="Our Partners"
         isHeadingCenter={true}

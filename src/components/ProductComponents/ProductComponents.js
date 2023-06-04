@@ -19,8 +19,8 @@ const ProductComponents = ({
 
           <ul className="components-list">
             {
-              componentList.map((item) => (
-                <li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+              componentList.map((item, index) => (
+                <li key={index} data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                   <img src={arrowBlueIcon} alt="arrow icon" width="24" />
                   <span>{item.comp}</span>
                 </li>

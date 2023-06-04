@@ -85,7 +85,7 @@ const NavListItems = [
   },
   {
     navItem: 'Our Strength',
-    url: '/#our_strength'
+    url: '/our_strength'
   },
   {
     navItem: 'Careers',

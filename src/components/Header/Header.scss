@@ -8,7 +8,7 @@
     .contact-info {
       height: 60px;
       display: flex;
-      justify-content: end;
+      justify-content: flex-end;
       align-items: center;
       gap: 24px;
       
@@ -62,7 +62,7 @@
       }
       ul.menu {
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         align-items: center;
         gap: 32px;
 

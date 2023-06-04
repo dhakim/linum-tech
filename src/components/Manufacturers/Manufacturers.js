@@ -8,7 +8,6 @@ const Manufacturers = ({
   ManufacturersList,
   manufacturerLogos
 }) => {
-  console.log('manufacturerLogos', manufacturerLogos)
   return(
     <React.Fragment>
       <section className="manufacturer-section">
@@ -21,12 +20,12 @@ const Manufacturers = ({
 
           <ul className="components-list">
             {
-              ManufacturersList.map((item) => (
-                <li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+              ManufacturersList.map((item, index) => (
+                <li key={index} data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                   <span className="logo-arc-icon">
                     <img src={logoArcIcon} alt="arrow icon" width="18" />
                   </span>
-                  <a href={item.url} target="_blank">{item.comp}</a>
+                  <a href={item.url} target="_blank" rel="noreferrer">{item.comp}</a>
                 </li>
               ))
             }

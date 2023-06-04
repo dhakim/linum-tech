@@ -10,7 +10,6 @@ const FileUpload = () => {
   const [showFileName, setShowFileName] = useState(false);
 
   const onUpload = (e) => {
-    console.log('file ', e.target.files[0].name);
     setFileName(e.target.files[0].name);
     setShowFileName(true);
   }

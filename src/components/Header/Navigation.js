@@ -24,7 +24,7 @@ const Navigation = () => {
                   <ul className="submenu">
                     {
                       item.subMenu.map((subItem, subItemIndex) => (
-                        <li className={subItemIndex}>
+                        <li className={subItemIndex} key={subItemIndex}>
                           <Link to={subItem.url}>
                             <img src={logoArcIcon} alt="icon" /> {subItem.navItem}
                           </Link>

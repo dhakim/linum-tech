@@ -21,8 +21,8 @@ const CategoryDetail = ({heading, description, images}) => {
             <div className={`medias ${images.length > 1 ? 'media-width-multiple-images' : ''}`} data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
               <div className={`media-wrapper ${images.length > 1 ? 'multiple' : ''}`}>
                 {
-                  images.map((item) => (
-                    <div className="img-holder">
+                  images.map((item, index) => (
+                    <div key={index} className="img-holder">
                       <img src={item} alt="image" />
                     </div>
                   ))

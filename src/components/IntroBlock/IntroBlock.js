@@ -3,7 +3,6 @@ import './IntroBlock.scss';
 import IntroBlockData from './IntroBlockData';
 
 const IntroBlock  = () => {
-  console.log(IntroBlockData);
   return (
     <React.Fragment>
       <section className="intro-block">

@@ -14,6 +14,7 @@ const ProductComponents = ({
           <SectionHeading 
             heading = {heading}
             isHeadingCenter = {true}
+            classname="d-none"
           />
 
           <ul className="components-list">

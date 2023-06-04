@@ -7,15 +7,17 @@ import partner3M from '../assets/images/outStrength/3M.png';
 import HeroSlider from '../components/HeroSlider/HeroSlider';
 import ProductDetail from '../components/ProductDetail/ProductDetail';
 import ProductComponents from '../components/ProductComponents/ProductComponents';
+import Manufacturers from '../components/Manufacturers/Manufacturers'
 import productsData from '../data/products.json';
 
-const ourStrengthLogos = [
-  partner3M, partner3M, partner3M, partner3M, partner3M, partner3M, partner3M, partner3M, 
-];
+// const ourStrengthLogos = [
+//   partner3M, partner3M, partner3M, partner3M, partner3M, partner3M, partner3M, partner3M, 
+// ];
 
 const ProductsTemplate = () => {
   let { productTxt } = useParams();
   let product = productsData.products[`${productTxt}`];
+
   return (
     <React.Fragment>
       <Header/>
@@ -30,18 +32,18 @@ const ProductsTemplate = () => {
         componentList = { product.components }
       />
 
-      {/* need to change the template of this maybe */}
-      <ProductComponents 
-        heading = "Related Manufacturers"
-        componentList = { product.relatedmanufacturers }
+      <Manufacturers 
+        heading="Related Manufacturers"
+        ManufacturersList = {product.relatedmanufacturers}
+        manufacturerLogos={product.logos}
       />
 
       {/* for products - we directly need to show logos without heading etc. */}
-      <OurPartners 
+      {/* <OurPartners 
         heading="Our Partners"
         isHeadingCenter={true}
         partnerLogos={product.logos}
-      />
+      /> */}
       <Footer />
     </React.Fragment>
   )

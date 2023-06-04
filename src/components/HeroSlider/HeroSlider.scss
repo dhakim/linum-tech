@@ -21,7 +21,7 @@
       }
   
       button.control-arrow {
-        z-index: 100;
+        z-index: 1000;
   
         &:before { display: none; }
         width: 88px;

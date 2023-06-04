@@ -22,16 +22,16 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "Vishay" }, 
-                { "comp": "RND Components" }, 
-                { "comp": "Intelligent LED Solutions" },
-                { "comp": "Everlight Electronics" },
-                { "comp": "Apem, Diotec" },
-                { "comp": "ST" },
-                { "comp": "Littelfuse" },
-                { "comp": "KEMET" },
-                { "comp": "Panasonic" },
-                { "comp": "Würth Elektronik" }
+                { "comp": "Vishay" , "url": "#"}, 
+                { "comp": "RND Components" , "url": "#"}, 
+                { "comp": "Intelligent LED Solutions", "url": "#" },
+                { "comp": "Everlight Electronics", "url": "#" },
+                { "comp": "Apem, Diotec", "url": "#" },
+                { "comp": "ST", "url": "#" },
+                { "comp": "Littelfuse", "url": "#" },
+                { "comp": "KEMET", "url": "#" },
+                { "comp": "Panasonic", "url": "#" },
+                { "comp": "Würth Elektronik", "url": "#" }
             ],
             "logos": 
             [

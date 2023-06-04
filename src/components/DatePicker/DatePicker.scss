@@ -1,0 +1,17 @@
+import React, { useRef } from "react";
+  import Flatpickr from "react-flatpickr";
+
+  import "flatpickr/dist/flatpickr.css";
+
+  export default function DatePicker({
+    label,
+  }) {
+    const fp = useRef(null);
+
+    return (
+      <div>
+        <label>{label}</label>
+        <Flatpickr ref={fp} />
+      </div>
+    );
+  }

@@ -32,7 +32,7 @@ const HeroSlider = () => {
         <div className="hero-title" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
           <div className="title-content">
             <h1>Sole Partner for <span>Distrelec</span></h1>
-            <a href="https://www.distrelec.biz/" target="_blank">www.distrelec.biz</a>
+            <a href="https://www.distrelec.biz/" target="_blank" rel="noreferrer">www.distrelec.biz</a>
             <p>your Gateway to Technology</p>
           </div>
         </div>

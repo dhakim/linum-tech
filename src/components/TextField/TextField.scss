@@ -20,14 +20,11 @@
 .calendar-control {
   position: relative;
 
-  .react-datepicker-wrapper {
+  input {
+    cursor: pointer;
     position: relative;
-    z-index: 10;
-
-    input[type="text"] {
-      background: none;
-      cursor: pointer;
-    }
+    z-index: 100;
+    background: transparent;
   }
 
   .calendar-icon {

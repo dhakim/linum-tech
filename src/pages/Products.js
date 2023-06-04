@@ -1,18 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useParams } from "react-router-dom";
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
-import OurPartners from '../components/OurPartners/OurPartners';
-import partner3M from '../assets/images/outStrength/3M.png';
 import HeroSlider from '../components/HeroSlider/HeroSlider';
 import ProductDetail from '../components/ProductDetail/ProductDetail';
 import ProductComponents from '../components/ProductComponents/ProductComponents';
 import Manufacturers from '../components/Manufacturers/Manufacturers'
 import productsData from '../data/products.json';
-
-// const ourStrengthLogos = [
-//   partner3M, partner3M, partner3M, partner3M, partner3M, partner3M, partner3M, partner3M, 
-// ];
 
 const ProductsTemplate = () => {
   let { productTxt } = useParams();

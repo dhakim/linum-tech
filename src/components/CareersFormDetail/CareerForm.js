@@ -3,11 +3,9 @@ import './CareersFormDetail.scss';
 import TextField from '../TextField/TextField';
 import TextArea from '../TextArea/TextArea';
 import Select from '../Select/Select';
-import DatePickerCalendar from '../DatePickerCalendar/DatePickerCalendar';
-import Upload from '../FileUploader/FileUploader';
+import DatePicker from '../DatePicker/DatePicker';
 import FileUpload from '../FileUploader/FileUploader';
 import Button from '../Button/Button';
-
 
 const CareerForm = () => {
   const jobs = [
@@ -129,7 +127,8 @@ const CareerForm = () => {
 
           <div className="form-row">
             <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-              <DatePickerCalendar label='Date of Birth *' />
+              {/* <DatePickerCalendar label='Date of Birth *' /> */}
+              <DatePicker label="Date of Birth.." />
             </div>
 
             <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">

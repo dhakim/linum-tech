@@ -7,8 +7,19 @@ import DatePicker from '../DatePicker/DatePicker';
 import FileUpload from '../FileUploader/FileUploader';
 import Button from '../Button/Button';
 import Countries from '../../data/countries.json';
+import { useFormik } from 'formik';
 
 const CareerForm = () => {
+  const formik = useFormik({
+    initialValues: {
+      applyFor: '', other: '', careerObjective: '', name: '', phone: '', email: '', address: '', country: '', 
+      nationality: '', dateofbirth: '', gender: '', maritialStatus: '', resumefile: ''
+    },
+    onSubmit: values => {
+      alert(JSON.stringify(values, null, 2));
+    },
+  });
+
   let countries = Countries.countries;
 
   const jobs = [
@@ -69,7 +80,7 @@ const CareerForm = () => {
 
   return(
     <React.Fragment>
-      <form>
+      <form onSubmit={formik.handleSubmit}>
         <div className="form-section">
           <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Position & Objective</h3>
           <div className="form-row">
@@ -88,7 +99,7 @@ const CareerForm = () => {
 
           <div className="form-row">
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-              <TextArea label="Career Objective" name="applyAcareerObjective" />
+              <TextArea label="Career Objective" name="careerObjective" />
             </div>
 
           </div>
@@ -134,7 +145,7 @@ const CareerForm = () => {
 
           <div className="form-row">
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-              <DatePicker label="Date of Birth.." />
+              <DatePicker label="Date of Birth.." name="dateofbirth" />
             </div>
 
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
@@ -154,18 +165,18 @@ const CareerForm = () => {
             </div>
           </div>
 
-          <div className="form-row">
+          {/* <div className="form-row">
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextArea label="Career Objective" name="applyAcareerObjective" />
             </div>
 
-          </div>
+          </div> */}
         </div>
 
         <div className="form-section">
           <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Upload Resume / CV</h3>
           <h5 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className="helping-text">(Only .doc, .docx or .pdf files are allowed)</h5>
-          <FileUpload />
+          <FileUpload name="resumefile" />
         </div>
 
         <div className="flex justify-end" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">

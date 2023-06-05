@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import logoArcIcon from '../../assets/images/logo-arc.svg';
 import navListItems from './NavListItems';
 import hamburgerIcon from '../../assets/images/hamburger.svg';
@@ -7,9 +7,14 @@ import logo from '../../assets/images/logo.svg';
 
 const Navigation = () => {
   const [navMobile, setNavMobile] = useState(false);
-  const scrollToTop = () => {
-    console.log('asf');
+  const navigate = useNavigate();
+
+  const navigateToPage = (url) => {
+    console.log(url);
+    navigate(url);
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
   }
+
   return (
     <div className="navigation">
       <div className="hamburger" onClick={() => setNavMobile(!navMobile)}>
@@ -20,7 +25,8 @@ const Navigation = () => {
         {
           navListItems.map((item, index) => (
             <li key={index} className={item.class} data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
-              <Link to={item.url}>{item.navItem}</Link>
+              <span onClick={() => navigateToPage(item.url)}>{item.navItem}</span>
+              {/* <Link to={item.url}>{item.navItem}</Link> */}
 
               {
                 item.subMenu ? (
@@ -28,9 +34,12 @@ const Navigation = () => {
                     {
                       item.subMenu.map((subItem, subItemIndex) => (
                         <li className={subItemIndex} key={subItemIndex}>
-                          <Link to={subItem.url} onClick={scrollToTop}>
+                          <span onClick={() => navigateToPage(subItem.url)}>
                             <img src={logoArcIcon} alt="icon" /> {subItem.navItem}
-                          </Link>
+                          </span>
+                          {/* <Link to={subItem.url}>
+                            <img src={logoArcIcon} alt="icon" /> {subItem.navItem}
+                          </Link> */}
                         </li>
                       ))
                     }

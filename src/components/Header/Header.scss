@@ -99,12 +99,13 @@
           list-style: none;
           position: relative;
 
-          a {
+          span {
             font-size: 17px;
             font-weight: 500;
             color: #ffffff;
             padding: 33px 0;
             display: block;
+            cursor: pointer;
 
             &:hover {
               color: #F4CD30;
@@ -118,7 +119,7 @@
           &.has-submenu {
             padding-right: 12px;
 
-            > a {
+            > span {
               position: relative;
 
               &:before {
@@ -149,7 +150,7 @@
               li {
                 display: block;
 
-                a {
+                span {
                   border-bottom: 1px solid #D9B730;
                   display: flex;
                   gap: 8px;
@@ -168,7 +169,7 @@
             }
 
             &:hover {
-              & > a:before {
+              & > span:before {
                 background-image: url(../../assets/images/arrow-down-yellow.svg);
               }
 
@@ -177,7 +178,7 @@
           }
 
           &.button {
-            a {
+            span {
               width: 151px;
               height: 52px;
               border-radius: 39px;
@@ -188,7 +189,7 @@
               align-items: center;
             }
 
-            &:hover a {
+            &:hover span {
               background-color: #FFDC51;
               color: #001750;
             }
@@ -223,7 +224,7 @@
               display: block;
               width: 100%;
 
-              a {
+              span {
                 padding: 16px 20px;
               }
 
@@ -233,7 +234,7 @@
               }
 
               &.has-submenu {
-                a {
+                span {
                   &:before {
                     left: calc(100% - 16px);
                   }
@@ -248,7 +249,7 @@
                     border-radius: 0;
 
                     li {
-                      a {
+                      span {
                         color: #fff;
                         border-bottom: none;
                         font-size: 14px;

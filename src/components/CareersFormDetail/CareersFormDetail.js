@@ -14,8 +14,8 @@ const CareersFormDetail = () => {
           />
 
           <div className="form-instructions">
-            <h4 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Careers at Linum Tech</h4>
-            <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Please fill in the necessary (*) marked fields</p>
+            <h4 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Careers at Linum Tech</h4>
+            <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Please fill in the necessary (*) marked fields</p>
           </div>
 
           <CareerForm />

@@ -10,7 +10,7 @@ const ContactForm = () => {
       <form>
         <div className="form-row">
           <div className="item">
-            <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField 
                 label="Name"
                 type="text"
@@ -18,7 +18,7 @@ const ContactForm = () => {
               />
             </div>
 
-            <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField 
                 label="Email"
                 type="email"
@@ -26,7 +26,7 @@ const ContactForm = () => {
               />
             </div>
 
-            <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField 
                 label="Phone"
                 type="tel"
@@ -34,14 +34,14 @@ const ContactForm = () => {
               />
             </div>
 
-            <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextArea 
                 label="Message"
                 name="message"
               />
             </div>
 
-            <div className="flex justify-end" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="flex justify-end" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <Button label="Send" />
             </div>
           </div>

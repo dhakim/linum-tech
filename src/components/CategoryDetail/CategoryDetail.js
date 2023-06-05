@@ -11,19 +11,19 @@ const CategoryDetail = ({heading, description, images}) => {
           <div className="content-row">
             <div className="description">
               <SectionHeading heading={heading} />
-              <div className="description-text" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+              <div className="description-text" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                 <p>{description}</p>
               </div>
 
-              <img src={arrowsImg} alt="arrorws" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" />
+              <img src={arrowsImg} alt="arrorws" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" />
             </div>
 
-            <div className={`medias ${images.length > 1 ? 'media-width-multiple-images' : ''}`} data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+            <div className={`medias ${images.length > 1 ? 'media-width-multiple-images' : ''}`} data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
               <div className={`media-wrapper ${images.length > 1 ? 'multiple' : ''}`}>
                 {
                   images.map((item, index) => (
                     <div key={index} className="img-holder">
-                      <img src={item} alt="image" />
+                      <img src={item} alt="category" />
                     </div>
                   ))
                 }

@@ -64,9 +64,9 @@ const CareerForm = () => {
     <React.Fragment>
       <form>
         <div className="form-section">
-          <h3 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Position & Objective</h3>
+          <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Position & Objective</h3>
           <div className="form-row">
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <Select 
                 label="Applying as *"
                 options={jobs}
@@ -74,13 +74,13 @@ const CareerForm = () => {
               />
             </div>
 
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField label="Other" name="other" />
             </div>
           </div>
 
           <div className="form-row">
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextArea label="Career Objective" name="applyAcareerObjective" />
             </div>
 
@@ -88,27 +88,27 @@ const CareerForm = () => {
         </div>
 
         <div className="form-section">
-          <h3 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Basic Information</h3>
+          <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Basic Information</h3>
           <div className="form-row">
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField label="Name *" name="name" />
             </div>
 
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField label="Phone *" name="phone" />
             </div>
 
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField label="Email *" name="email" />
             </div>
           </div>
 
           <div className="form-row">
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField label="Address *" name="address" />
             </div>
 
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <Select 
                 label="Country *"
                 options={countries}
@@ -116,7 +116,7 @@ const CareerForm = () => {
               />
             </div>
 
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <Select 
                 label="Nationality"
                 options={countries}
@@ -126,11 +126,11 @@ const CareerForm = () => {
           </div>
 
           <div className="form-row">
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <DatePicker label="Date of Birth.." />
             </div>
 
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <Select 
                 label="Gender *"
                 options={gender}
@@ -138,7 +138,7 @@ const CareerForm = () => {
               />
             </div>
 
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <Select 
                 label="Maritial Status"
                 options={maritialStatus}
@@ -148,7 +148,7 @@ const CareerForm = () => {
           </div>
 
           <div className="form-row">
-            <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextArea label="Career Objective" name="applyAcareerObjective" />
             </div>
 
@@ -156,12 +156,12 @@ const CareerForm = () => {
         </div>
 
         <div className="form-section">
-          <h3 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Upload Resume / CV</h3>
-          <h5 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" className="helping-text">(Only .doc, .docx or .pdf files are allowed)</h5>
+          <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Upload Resume / CV</h3>
+          <h5 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className="helping-text">(Only .doc, .docx or .pdf files are allowed)</h5>
           <FileUpload />
         </div>
 
-        <div className="flex justify-end" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+        <div className="flex justify-end" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <Button label="Submit" />
         </div>
 

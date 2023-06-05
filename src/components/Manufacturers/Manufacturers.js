@@ -21,7 +21,7 @@ const Manufacturers = ({
           <ul className="components-list">
             {
               ManufacturersList.map((item, index) => (
-                <li key={index} data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <li key={index} data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                   <span className="logo-arc-icon">
                     <img src={logoArcIcon} alt="arrow icon" width="18" />
                   </span>

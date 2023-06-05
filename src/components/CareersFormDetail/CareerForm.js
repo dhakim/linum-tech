@@ -6,33 +6,40 @@ import Select from '../Select/Select';
 import DatePicker from '../DatePicker/DatePicker';
 import FileUpload from '../FileUploader/FileUploader';
 import Button from '../Button/Button';
+import Countries from '../../data/countries.json';
 
 const CareerForm = () => {
+  let countries = Countries.countries;
+
   const jobs = [
     {
-      label: 'PipeLine Desiner',
-      value: 'pipeline-designer'
+      label: 'Business Development Executive',
+      value: 'Business Development Executive'
     },
     {
-      label: 'Engineer Desiner',
-      value: 'eng-designer'
+      label: 'Sales Engineer',
+      value: 'Sales Engineer'
     },
     {
-      label: 'Architechture Engineer',
-      value: 'Architechture-Engineer'
+      label: 'Supply Chain Executive',
+      value: 'Supply Chain Executive'
+    },
+    {
+      label: 'Other',
+      value: 'Other'
     }
   ];
 
-  const countries = [
-    {
-      label: 'Pakistan',
-      value: 'pakistan'
-    },
-    {
-      label: 'Dubai',
-      value: 'dubai'
-    },
-  ];
+  // const countries = [
+  //   {
+  //     label: 'Pakistan',
+  //     value: 'pakistan'
+  //   },
+  //   {
+  //     label: 'Dubai',
+  //     value: 'dubai'
+  //   },
+  // ];
 
   const gender = [
     {

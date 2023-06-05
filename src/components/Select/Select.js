@@ -12,7 +12,7 @@ const Select = ({
       <select className="select-control" name={name}>
         {
           options.map((item, index) => (
-            <option value={item.value} key={index}>{item.label}</option>
+            <option value={item.label} key={index}>{item.label}</option>
           ))
         }
       </select>

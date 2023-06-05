@@ -22,16 +22,16 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "Vishay" , "url": "#"}, 
-                { "comp": "RND Components" , "url": "#"}, 
-                { "comp": "Intelligent LED Solutions", "url": "#" },
-                { "comp": "Everlight Electronics", "url": "#" },
-                { "comp": "Apem, Diotec", "url": "#" },
-                { "comp": "ST", "url": "#" },
-                { "comp": "Littelfuse", "url": "#" },
-                { "comp": "KEMET", "url": "#" },
-                { "comp": "Panasonic", "url": "#" },
-                { "comp": "Würth Elektronik", "url": "#" }
+                { "comp": "Vishay" , "url": "#", "logo": "/assets/images/outStrength/3M.png"}, 
+                { "comp": "RND Components" , "url": "#", "logo": "/assets/images/outStrength/3M.png"}, 
+                { "comp": "Intelligent LED Solutions", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "Everlight Electronics", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "Apem, Diotec", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "ST", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "Littelfuse", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "KEMET", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "Panasonic", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "Würth Elektronik", "url": "#", "logo": "/assets/images/outStrength/3M.png" }
             ],
             "logos": 
             [
@@ -60,11 +60,11 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "Molex" }, 
-                { "comp": "RND Connect" }, 
-                { "comp": "TE Connectivity" },
-                { "comp": "HARTING" },
-                { "comp": "Phoenix Contact" }
+                { "comp": "Molex", "logo": "/assets/images/outStrength/3M.png" }, 
+                { "comp": "RND Connect", "logo": "/assets/images/outStrength/3M.png" }, 
+                { "comp": "TE Connectivity", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "HARTING", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "Phoenix Contact", "logo": "/assets/images/outStrength/3M.png" }
             ],
             "logos": 
             [
@@ -93,11 +93,11 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "Molex" }, 
-                { "comp": "HellecompnTyton" }, 
-                { "comp": "Alpha Wire" },
-                { "comp": "Lapp" },
-                { "comp": "RND Cable" }
+                { "comp": "Molex", "logo": "/assets/images/outStrength/3M.png" }, 
+                { "comp": "HellecompnTyton", "logo": "/assets/images/outStrength/3M.png" }, 
+                { "comp": "Alpha Wire", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "Lapp", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "RND Cable", "logo": "/assets/images/outStrength/3M.png" }
             ],
             "logos": 
             [

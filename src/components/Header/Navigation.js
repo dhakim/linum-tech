@@ -7,6 +7,9 @@ import logo from '../../assets/images/logo.svg';
 
 const Navigation = () => {
   const [navMobile, setNavMobile] = useState(false);
+  const scrollToTop = () => {
+    console.log('asf');
+  }
   return (
     <div className="navigation">
       <div className="hamburger" onClick={() => setNavMobile(!navMobile)}>
@@ -25,7 +28,7 @@ const Navigation = () => {
                     {
                       item.subMenu.map((subItem, subItemIndex) => (
                         <li className={subItemIndex} key={subItemIndex}>
-                          <Link to={subItem.url}>
+                          <Link to={subItem.url} onClick={scrollToTop}>
                             <img src={logoArcIcon} alt="icon" /> {subItem.navItem}
                           </Link>
                         </li>

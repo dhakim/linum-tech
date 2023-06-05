@@ -4,7 +4,10 @@
   .content-wrapper {
     display: flex;
     gap: 24px;
-    align-items: center;
+
+    @media only screen and (max-width:868px) {
+      flex-direction: column;
+    } 
 
     .card {
       padding: 44px 24px;
@@ -12,6 +15,10 @@
       flex: 1;
       text-align: center;
       transition: 0.3s ease all;
+
+      @media only screen and (max-width:868px) {
+        min-height: unset;
+      } 
 
       &:hover {
         box-shadow: 6px 8px 14px rgba(0, 23, 80, 0.25)
@@ -32,6 +39,12 @@
         color: #fff;
         font-size: 16px;
         line-height: 28px;
+
+        @media only screen and (max-width:868px) {
+          width: 100%;
+          max-width: 400px;
+          margin: 0 auto;
+        } 
       }
 
       &.yellow { 

@@ -20,7 +20,7 @@
 .calendar-control {
   position: relative;
 
-  input {
+  input[type="text"] {
     cursor: pointer;
     position: relative;
     z-index: 100;

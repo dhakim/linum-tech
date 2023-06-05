@@ -21,14 +21,9 @@
       gap: 11px;
       align-items: center;
 
-      a {
+      span.label {
         color: #3a6ab9;
-        text-decoration: underline;
-
-        &:hover {
-          color: #54afe6;
-          text-decoration: none;
-        }
+        font-size: 18px;
       }
 
       .logo-arc-icon {

@@ -25,7 +25,7 @@ const Manufacturers = ({
                   <span className="logo-arc-icon">
                     <img src={logoArcIcon} alt="arrow icon" width="18" />
                   </span>
-                  <a href={item.url} target="_blank" rel="noreferrer">{item.comp}</a>
+                  <span className="label">{item.comp}</span>
                 </li>
               ))
             }

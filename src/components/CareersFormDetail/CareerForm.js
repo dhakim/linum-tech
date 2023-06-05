@@ -127,7 +127,6 @@ const CareerForm = () => {
 
           <div className="form-row">
             <div className="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-              {/* <DatePickerCalendar label='Date of Birth *' /> */}
               <DatePicker label="Date of Birth.." />
             </div>
 

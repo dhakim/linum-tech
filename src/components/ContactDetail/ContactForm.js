@@ -3,16 +3,27 @@ import './ContactDetail.scss';
 import TextField from "../TextField/TextField";
 import TextArea from "../TextArea/TextArea";
 import Button from "../Button/Button";
+import { useFormik } from 'formik';
 
 const ContactForm = () => {
+
+  const formik = useFormik({
+    initialValues: {
+      name: '', phone: '', email: '', message: ''
+    },
+    onSubmit: values => {
+      alert(JSON.stringify(values, null, 2));
+    },
+  });
+
   return (
     <React.Fragment>
-      <form>
+      <form onSubmit={formik.handleSubmit}>
         <div className="form-row">
           <div className="item">
             <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField 
-                label="Name"
+                label="Name *"
                 type="text"
                 name="name"
               />
@@ -20,7 +31,7 @@ const ContactForm = () => {
 
             <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField 
-                label="Email"
+                label="Email *"
                 type="email"
                 name="email"
               />
@@ -28,7 +39,7 @@ const ContactForm = () => {
 
             <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField 
-                label="Phone"
+                label="Phone *"
                 type="tel"
                 name="phone"
               />
@@ -36,7 +47,7 @@ const ContactForm = () => {
 
             <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextArea 
-                label="Message"
+                label="Message *"
                 name="message"
               />
             </div>

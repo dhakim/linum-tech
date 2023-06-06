@@ -88,6 +88,9 @@ const ContactForm = () => {
                 label="Email *"
                 type="email"
                 name="email"
+                onBlur={formik.handleBlur}
+                onChange={formik.handleChange}
+                errorMessage={formik.touched.email && formik.errors.email ? formik.errors.email : null}
               />
             </div>
 
@@ -96,6 +99,9 @@ const ContactForm = () => {
                 label="Phone *"
                 type="tel"
                 name="phone"
+                onBlur={formik.handleBlur}
+                onChange={formik.handleChange}
+                errorMessage={formik.touched.phone && formik.errors.phone ? formik.errors.phone : null}
               />
             </div>
 

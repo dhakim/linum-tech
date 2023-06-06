@@ -5,6 +5,7 @@ import TextArea from "../TextArea/TextArea";
 import Button from "../Button/Button";
 import { useFormik } from 'formik';
 import Select from "../Select/Select";
+import * as Yup from 'yup';
 
 const ContactForm = () => {
 
@@ -15,6 +16,12 @@ const ContactForm = () => {
     initialValues: {
       name: '', phone: '', email: '', message: ''
     },
+    validationSchema: Yup.object({
+      name: Yup.string().required("Name is required").matches(/^[A-Za-z]+$/, 'Only alphabets are allowed'),
+      phone: Yup.string().required("Phone is required").matches(/^\+?[1-9][0-9]{7,14}$/, 'Enter correct phone e.g. +971 3456 000 000'),
+      email: Yup.string().required("Email is required").matches(/^\S+@\S+\.\S+$/, 'Please enter correct email ID'),
+      address: Yup.string().required("address is required"),
+    }),
     onSubmit: values => {
       alert(JSON.stringify(values, null, 2));
     },
@@ -70,6 +77,9 @@ const ContactForm = () => {
                 label="Name *"
                 type="text"
                 name="name"
+                onBlur={formik.handleBlur}
+                onChange={formik.handleChange}
+                errorMessage={formik.touched.name && formik.errors.name ? formik.errors.name : null}
               />
             </div>
 

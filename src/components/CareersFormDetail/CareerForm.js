@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './CareersFormDetail.scss';
 import TextField from '../TextField/TextField';
 import TextArea from '../TextArea/TextArea';
@@ -10,6 +10,8 @@ import Countries from '../../data/countries.json';
 import { useFormik } from 'formik';
 
 const CareerForm = () => {
+  const [jobsValue, setJobsValue] = useState("");
+
   const formik = useFormik({
     initialValues: {
       applyFor: '', other: '', careerObjective: '', name: '', phone: '', email: '', address: '', country: '', 
@@ -76,7 +78,11 @@ const CareerForm = () => {
       label: 'Divorced',
       value: 'divorced'
     },
-  ]
+  ];
+
+  const onJobChange = (e) => {
+    setJobsValue(e.target.value)
+  }
 
   return(
     <React.Fragment>
@@ -89,11 +95,18 @@ const CareerForm = () => {
                 label="Applying as *"
                 options={jobs}
                 name="applyFor"
+                onChange = {onJobChange}
+                value={jobsValue} 
               />
             </div>
 
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-              <TextField label="Other" name="other" />
+              <TextField 
+                label="Other" 
+                name="other" 
+                className={jobsValue === 'Other' ? '' : 'disabled'}
+                isDisabled={jobsValue === 'Other' ? false : true}
+              />
             </div>
           </div>
 

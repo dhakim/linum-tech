@@ -15,6 +15,18 @@
     font-size: 14px;
     padding: 0 15px
   }
+
+  &.disabled {
+    label {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .form-control {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+  }
 }
 
 .calendar-control {

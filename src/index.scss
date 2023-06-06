@@ -52,3 +52,16 @@ a {
 } 
 
 .d-none { display: none !important; }
+
+.form-row {
+  display: flex;
+  gap: 24px;
+
+  @media only screen and (max-width: 767px) {
+    display: block;
+  }
+
+  .item {
+    flex: 1;
+  }
+}

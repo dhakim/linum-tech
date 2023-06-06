@@ -8,6 +8,7 @@ import FileUpload from '../FileUploader/FileUploader';
 import Button from '../Button/Button';
 import Countries from '../../data/countries.json';
 import { useFormik } from 'formik';
+import * as Yup from 'yup';
 
 const CareerForm = () => {
   const [jobsValue, setJobsValue] = useState("");
@@ -20,6 +21,14 @@ const CareerForm = () => {
     onSubmit: values => {
       alert(JSON.stringify(values, null, 2));
     },
+    validationSchema: Yup.object({
+      fullName: Yup.string().required("Name is required").matches(/^[a-zA-Z]$/, "Only alphabets are allowed"),
+      phone: Yup.string().required("Phone is required").matches(/^\+?[1-9][0-9]{7,14}$/, 'Enter correct phone e.g. +971 3456 000 000'),
+      email: Yup.string().required("Email is required").matches(/^\S+@\S+\.\S+$/, 'Please enter correct email ID'),
+      address: Yup.string().required("address is required"),
+      
+      
+    }),
   });
 
   let countries = Countries.countries;
@@ -42,17 +51,6 @@ const CareerForm = () => {
       value: 'Other'
     }
   ];
-
-  // const countries = [
-  //   {
-  //     label: 'Pakistan',
-  //     value: 'pakistan'
-  //   },
-  //   {
-  //     label: 'Dubai',
-  //     value: 'dubai'
-  //   },
-  // ];
 
   const gender = [
     {
@@ -122,21 +120,46 @@ const CareerForm = () => {
           <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Basic Information</h3>
           <div className="form-row">
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-              <TextField label="Name *" name="name" />
+              <TextField 
+                label="Name *" 
+                name="fullName" 
+                onBlur={formik.handleBlur}
+                onChange={formik.handleChange}
+                errorMessage={formik.touched.fullName && formik.errors.fullName ? formik.errors.fullName : null}  
+              />
+
             </div>
 
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-              <TextField label="Phone *" name="phone" />
+              <TextField 
+                label="Phone *" 
+                name="phone" 
+                onBlur={formik.handleBlur}
+                onChange={formik.handleChange}
+                errorMessage={formik.touched.phone && formik.errors.phone ? formik.errors.phone : null}  
+              />
             </div>
 
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-              <TextField label="Email *" name="email" />
+              <TextField 
+                label="Email *" 
+                name="email" 
+                onBlur={formik.handleBlur}
+                onChange={formik.handleChange}
+                errorMessage={formik.touched.email && formik.errors.email ? formik.errors.email : null}  
+              />
             </div>
           </div>
 
           <div className="form-row">
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-              <TextField label="Address *" name="address" />
+              <TextField 
+                label="Address *" 
+                name="address" 
+                onBlur={formik.handleBlur}
+                onChange={formik.handleChange}
+                errorMessage={formik.touched.address && formik.errors.address ? formik.errors.address : null}  
+              />
             </div>
 
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
@@ -158,7 +181,10 @@ const CareerForm = () => {
 
           <div className="form-row">
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-              <DatePicker label="Date of Birth *" name="dateofbirth" />
+              <DatePicker 
+                label="Date of Birth *" 
+                name="dateofbirth" 
+              />
             </div>
 
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">

@@ -145,7 +145,7 @@ const CareerForm = () => {
 
           <div className="form-row">
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-              <DatePicker label="Date of Birth.." name="dateofbirth" />
+              <DatePicker label="Date of Birth *" name="dateofbirth" />
             </div>
 
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">

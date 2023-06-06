@@ -30,7 +30,7 @@ const ContactDetail = () => {
 
               <div className="contact-info">
                 <span className="icon" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"><img src={phoneBlueIcon} alt="phone" /></span>
-                <a href="tel:+ 971 54 786 4447" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">+ 971547 864 447</a>
+                <a href="tel:+971547864447" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">+971 54 786 4447</a>
               </div>
             </div>
           </div>

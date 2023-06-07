@@ -62,13 +62,27 @@
         "defence": {
             "title": "Defence",
             "description": "When every Millimeter is of highest importance that is where you need robust, faster and lighter component to meet the challenges. We at Linum Technologies are delivering the mission critical solutions that power and connect the future of land, sea, air and space. The product range include but not limited to the smallest of ICs to various types of connectors, cable harnesses to cable assemblies, push buttons to LED screens and more.",
-            "image": "/assets/images/oil-gass.jpg",
+            "mediaImages": [
+                "/assets/images/defence/defence.png",
+                ""
+                
+            ],
             "logos": 
             [
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" }
+                { "logo": "/assets/images/defence/alpha-wire.png" },
+                { "logo": "/assets/images/defence/Amphenol.bmp" },
+                { "logo": "/assets/images/defence/belden.jpg" },
+                { "logo": "/assets/images/defence/Fluke.bmp" },
+                { "logo": "/assets/images/defence/GAIA.jpg" },
+                { "logo": "/assets/images/defence/Hameg.jpg" },
+                { "logo": "/assets/images/defence/huber.jpeg" },
+                { "logo": "/assets/images/defence/keysight.png" },
+                { "logo": "/assets/images/defence/lapp-kabel.png" },
+                { "logo": "/assets/images/defence/Metcal.png" },
+                { "logo": "/assets/images/defence/Rhodes-and-Schwarz.png" },
+                { "logo": "/assets/images/defence/schroff.png" },
+                { "logo": "/assets/images/defence/Traco-Power.jpg" },
+                { "logo": "/assets/images/defence/Tyco-Electronincs.jpg" }
             ]  
         },
         "transportation": {

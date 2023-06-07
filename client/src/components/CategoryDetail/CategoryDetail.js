@@ -23,7 +23,7 @@ const CategoryDetail = ({heading, description, images}) => {
                 {
                   images.map((item, index) => (
                     <div key={index} className="img-holder">
-                      <img src={item} alt="category" />
+                      <img src={item} alt="" />
                     </div>
                   ))
                 }

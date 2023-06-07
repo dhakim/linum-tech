@@ -24,8 +24,8 @@ const NavListItems = [
         url: '/industries/utilities-and-grid'
       },
       {
-        navItem: 'Defense',
-        url: '/industries/defense'
+        navItem: 'Defence',
+        url: '/industries/defence'
       },
       {
         navItem: 'Transportation',

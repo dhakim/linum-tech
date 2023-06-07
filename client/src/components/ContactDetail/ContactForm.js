@@ -134,7 +134,7 @@ const ContactForm = () => {
                   options={interestOptions}
                   name="yourInterest"
                   onChange = {onInterestChange}
-                  value={industryValue} 
+                  value={interestValue} 
                 />
               </div>
 

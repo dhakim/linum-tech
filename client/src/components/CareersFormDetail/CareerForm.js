@@ -22,7 +22,7 @@ const CareerForm = () => {
       alert(JSON.stringify(values, null, 2));
     },
     validationSchema: Yup.object({
-      fullName: Yup.string().required("Name is required").matches(/^[A-Za-z]+$/, "Only alphabets are allowed"),
+      name: Yup.string().required("Name is required").matches(/^[A-Za-z]+$/, "Only alphabets are allowed"),
       phone: Yup.string().required("Phone is required").matches(/^\+?[1-9][0-9]{7,14}$/, 'Enter correct phone e.g. +971 3456 000 000'),
       email: Yup.string().required("Email is required").matches(/^\S+@\S+\.\S+$/, 'Please enter correct email ID'),
       address: Yup.string().required("address is required"),
@@ -120,10 +120,10 @@ const CareerForm = () => {
             <div className="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <TextField 
                 label="Name *" 
-                name="fullName" 
+                name="name" 
                 onBlur={formik.handleBlur}
                 onChange={formik.handleChange}
-                errorMessage={formik.touched.fullName && formik.errors.fullName ? formik.errors.fullName : null}  
+                errorMessage={formik.touched.name && formik.errors.name ? formik.errors.name : null}  
               />
 
             </div>

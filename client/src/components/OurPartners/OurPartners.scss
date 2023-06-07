@@ -49,6 +49,10 @@
       align-items: center;
       border-radius: 6px;
 
+      img {
+        max-width: 70%;
+      }
+
       // @media only screen and (max-width:1024px) {
       //   width: calc(20% - 10px);
       // }

@@ -10,10 +10,6 @@ import industriesData from '../data/industries.json';
 const IndustriesTemplate = () => {
     let { industryTxt } = useParams();
     let industry = industriesData.industries[`${industryTxt}`];
-    const images = [
-        industry.image,
-        industry.image
-    ]
 
   return (
     <React.Fragment>
@@ -23,7 +19,7 @@ const IndustriesTemplate = () => {
       <CategoryDetail 
         heading = { industry.title } 
         description = { industry.description }
-        images = { images }
+        images = { industry.mediaImages }
       />
       
       <OurPartners 

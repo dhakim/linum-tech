@@ -15,13 +15,23 @@
         "construction": {
             "title": "Construction",
             "description": "We at Linum technologies have a broad range of innovative tools, machinery, software to be used in the construction industry. Construction sector is directly involved with the economic activity of the region. We provide latest technology products including Tools, HSE Kits and Testing Equipment. The key elements which are changing the construction sector are Drones, Virtual and Augmented Reality,3D Laser Technology, 3D printing, Digital Twin and many more.",
-            "image": "/assets/images/oil-gass.jpg",
+            "image": "/assets/images/oil-gass11.jpg",
+            "mediaImages": [
+                "/assets/images/construction/CON-4.jpeg",
+                "/assets/images/construction/CON-4.jpg"
+            ],
             "logos": 
             [
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" }
+                { "logo": "/assets/images/construction/Eaton.png" },
+                { "logo": "/assets/images/construction/FLir.png" },
+                { "logo": "/assets/images/construction/Fluke.jpg" },
+                { "logo": "/assets/images/construction/Honeywell.png" },
+                { "logo": "/assets/images/construction/mox.jpg" },
+                { "logo": "/assets/images/construction/Omron.jpg" },
+                { "logo": "/assets/images/construction/pheonix.jpg" },
+                { "logo": "/assets/images/construction/pixhawak.png" },
+                { "logo": "/assets/images/construction/Seed-studio.png" },
+                { "logo": "/assets/images/construction/Siemens.jpg" }
             ]
             
         },

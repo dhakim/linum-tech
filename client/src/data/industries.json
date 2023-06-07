@@ -38,13 +38,22 @@
         "education": {
             "title": "Education",
             "description": "Technology is a tool that provides both teachers and students motivation, creativity, communication and collaboration. Providing latest technology products and equipment will give them hands on experience and prepare them well for the industry. We are specialized in providing testing labs and testing equipment for all educational disciplines. You can discover the parts, resources and support that are basis for further Education whether institution or individual.",
-            "image": "/assets/images/oil-gass.jpg",
+            "mediaImages": [
+                "/assets/images/education/E-3.jpg",
+                "/assets/images/education/E-1.jpg"
+            ],
             "logos": 
             [
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" }
+                { "logo": "/assets/images/education/Fluke.bmp" },
+                { "logo": "/assets/images/education/Fluke-Networks.jpeg" },
+                { "logo": "/assets/images/education/keysight.png" },
+                { "logo": "/assets/images/education/Megger.png" },
+                { "logo": "/assets/images/education/Metcal.png" },
+                { "logo": "/assets/images/education/peaktech.png" },
+                { "logo": "/assets/images/education/Seed-studio.png" },
+                { "logo": "/assets/images/education/tti.png" },
+                { "logo": "/assets/images/education/weller.png" }
+
             ]    
         },
         "utilities-and-grid": {
@@ -65,7 +74,6 @@
             "mediaImages": [
                 "/assets/images/defence/defence.png",
                 ""
-                
             ],
             "logos": 
             [

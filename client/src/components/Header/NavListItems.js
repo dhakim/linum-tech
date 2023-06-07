@@ -78,7 +78,7 @@ const NavListItems = [
         url: '/products/power'
       },
       {
-        navItem: 'Development Boards and Kits',
+        navItem: 'Development Boards & Kits',
         url: '/products/development-boards-and-kits'
       },
     ]

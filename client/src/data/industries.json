@@ -4,6 +4,10 @@
             "title": "Oil & Gas",
             "description": "The offshore and commercial marine market is harsh on hardware and apparatus. We have components that withstand weather, corrosion, extreme temperature and tough and challenging environments. We carry special range of Tools, HSE Kits and Testing Equipment to cater the requirements of Oil and Gas Industry. We are also specialized in providing all types of electronic components used in the onshore or offshore setup in Oil & Gas industry.",
             "image": "/assets/images/oil-gass.jpg",
+            "mediaImages": 
+            [
+                "/assets/images/oil-gass.jpg"
+            ],
             "logos": 
             [
                 { "logo": "/assets/images/outStrength/3M.png" },
@@ -16,7 +20,8 @@
             "title": "Construction",
             "description": "We at Linum technologies have a broad range of innovative tools, machinery, software to be used in the construction industry. Construction sector is directly involved with the economic activity of the region. We provide latest technology products including Tools, HSE Kits and Testing Equipment. The key elements which are changing the construction sector are Drones, Virtual and Augmented Reality,3D Laser Technology, 3D printing, Digital Twin and many more.",
             "image": "/assets/images/oil-gass11.jpg",
-            "mediaImages": [
+            "mediaImages": 
+            [
                 "/assets/images/construction/CON-4.jpeg",
                 "/assets/images/construction/CON-4.jpg"
             ],
@@ -38,7 +43,8 @@
         "education": {
             "title": "Education",
             "description": "Technology is a tool that provides both teachers and students motivation, creativity, communication and collaboration. Providing latest technology products and equipment will give them hands on experience and prepare them well for the industry. We are specialized in providing testing labs and testing equipment for all educational disciplines. You can discover the parts, resources and support that are basis for further Education whether institution or individual.",
-            "mediaImages": [
+            "mediaImages": 
+            [
                 "/assets/images/education/E-3.jpg",
                 "/assets/images/education/E-1.jpg"
             ],
@@ -60,6 +66,10 @@
             "title": "Utilities & Grid",
             "description": "Technology is a tool that provides both teachers and students motivation, creativity, communication and collaboration. Providing latest technology products and equipment will give them hands on experience and prepare them well for the industry. We are specialized in providing testing labs and testing equipment for all educational disciplines. You can discover the parts, resources and support that are basis for further Education whether institution or individual.",
             "image": "/assets/images/oil-gass.jpg",
+            "mediaImages": 
+            [
+                "/assets/images/oil-gass.jpg"
+            ],
             "logos": 
             [
                 { "logo": "/assets/images/outStrength/3M.png" },
@@ -71,9 +81,9 @@
         "defence": {
             "title": "Defence",
             "description": "When every Millimeter is of highest importance that is where you need robust, faster and lighter component to meet the challenges. We at Linum Technologies are delivering the mission critical solutions that power and connect the future of land, sea, air and space. The product range include but not limited to the smallest of ICs to various types of connectors, cable harnesses to cable assemblies, push buttons to LED screens and more.",
-            "mediaImages": [
-                "/assets/images/defence/defence.png",
-                ""
+            "mediaImages": 
+            [
+                "/assets/images/defence/defence.png"
             ],
             "logos": 
             [
@@ -97,6 +107,10 @@
             "title": "Transportation",
             "description": "Transportation plays a vital role in global infrastructure and technology plays a significant role in transforming the industry for energy efficient to artificial intelligent system to maintain the supply chain. In addition to above we have a dedicated team of professional individuals to provide best quality Components, Tool Kits, HSE and Testing Equipment’s to fulfill your requirement. We carry special product range for Aviation and Aero Space sector.",
             "image": "/assets/images/oil-gass.jpg",
+            "mediaImages": 
+            [
+                "/assets/images/oil-gass.jpg"
+            ],
             "logos": 
             [
                 { "logo": "/assets/images/outStrength/3M.png" },

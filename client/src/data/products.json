@@ -345,7 +345,14 @@
             "description": "Our selection of development boards & kits provides models with all the configurations of power circuits, programming interfaces, input modes and output modes and LEDs to help you with robust and reliable testing. Our range of development boards & kits is sourced from leading brands around the world, such as SparkFun Electronics, Adafruit, Velleman, Mikroelektronika and Seeed Studio to provide our clients with excellence and great value for money.",
             "image": "/assets/images/oil-gass.jpg",
             "components":[],
-            "relatedmanufacturers":[],
+            "relatedmanufacturers":
+            [
+                { "comp": "RaspberryPI", "logo": "/assets/images/outStrength/3M.png" }, 
+                { "comp": "Seeed", "logo": "/assets/images/outStrength/3M.png" }, 
+                { "comp": "Digilent", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "Arduino", "logo": "/assets/images/outStrength/3M.png" },
+                { "comp": "Sparkfun Electronics", "logo": "/assets/images/outStrength/3M.png" }
+            ],
             "logos": 
             [
                 { "logo": "/assets/images/outStrength/3M.png" } ,

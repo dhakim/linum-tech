@@ -30,11 +30,27 @@ const ContactForm = () => {
   const industriesOptions = [
     {
       label: 'Oil and Gass',
-      value: 'oil-and-gass'
+      value: 'Oil and Gas'
     },
     {
       label: 'Construction',
-      value: 'construction'
+      value: 'Construction'
+    },
+    {
+      label: 'Education',
+      value: 'Education'
+    },
+    {
+      label: 'Utilities',
+      value: 'Utilities'
+    },
+    {
+      label: 'Defence',
+      value: 'Defence'
+    },
+    {
+      label: 'Transportation',
+      value: 'Transportation'
     },
     {
       label: 'Other',
@@ -45,11 +61,47 @@ const ContactForm = () => {
   const interestOptions = [
     {
       label: 'Electronic Components',
-      value: 'electronic-components'
+      value: 'Electronic Components'
     },
     {
       label: 'Connectors',
-      value: 'connectors'
+      value: 'Connectors'
+    },
+    {
+      label: 'Cables & Wires',
+      value: 'Cables & Wires'
+    },
+    {
+      label: 'Test Equipment',
+      value: 'Test Equipment'
+    },
+    {
+      label: 'Automation',
+      value: 'Automation'
+    },
+    {
+      label: 'Maintenance Safety & ESD',
+      value: 'Maintenance Safety & ESD'
+    },
+    {
+      label: 'Tools & Soldering',
+      value: 'Tools & Soldering'
+    },
+    {
+      label: 'Thermal Management',
+      value: 'Thermal Management'
+    },
+    {
+      label: 'Mechanical Components',
+      value: 'Mechanical Components'
+    },
+    {
+      label: 'Power',
+      value: 'Power'
+    },
+    {
+      label: 'Development Boards & Kits',
+      value: 'Development Boards & Kits'
     },
     {
       label: 'Other',

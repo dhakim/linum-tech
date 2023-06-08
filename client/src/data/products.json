@@ -60,11 +60,11 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "Molex", "logo": "/assets/images/outStrength/3M.png" }, 
-                { "comp": "RND Connect", "logo": "/assets/images/outStrength/3M.png" }, 
-                { "comp": "TE Connectivity", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "HARTING", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "Phoenix Contact", "logo": "/assets/images/outStrength/3M.png" }
+                { "comp": "Molex", "logo": "/assets/images/products/connectors/molex.png" }, 
+                { "comp": "RND Connect", "logo": "/assets/images/products/connectors/rnd-connect.png" }, 
+                { "comp": "TE Connectivity", "logo": "/assets/images/products/connectors/TE-connectivity.png" },
+                { "comp": "HARTING", "logo": "/assets/images/products/connectors/harting.png" },
+                { "comp": "Phoenix Contact", "logo": "/assets/images/products/connectors/phoenix-contact.png" }
             ],
             "logos": 
             [
@@ -93,11 +93,11 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "Molex", "logo": "/assets/images/outStrength/3M.png" }, 
-                { "comp": "HellecompnTyton", "logo": "/assets/images/outStrength/3M.png" }, 
-                { "comp": "Alpha Wire", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "Lapp", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "RND Cable", "logo": "/assets/images/outStrength/3M.png" }
+                { "comp": "Molex", "logo": "/assets/images/products/cabes-and-wires/molex.png" }, 
+                { "comp": "HellecompnTyton", "logo": "/assets/images/products/cabes-and-wires/hellermannTyton.png" }, 
+                { "comp": "Alpha Wire", "logo": "/assets/images/products/cabes-and-wires/alphawires.png" },
+                { "comp": "Lapp", "logo": "/assets/images/products/cabes-and-wires/lapp-kabel.png" },
+                { "comp": "RND Cable", "logo": "/assets/images/products/cabes-and-wires/rnd-cables.png" }
             ],
             "logos": 
             [

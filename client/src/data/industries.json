@@ -76,14 +76,20 @@
             "image": "/assets/images/oil-gass.jpg",
             "mediaImages": 
             [
-                "/assets/images/oil-gass.jpg"
+                "/assets/images/utilities-and-grid/utilities-and-grid.png"
             ],
             "logos": 
             [
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" }
+                { "logo": "/assets/images/utilities-and-grid/ABB.png" },
+                { "logo": "/assets/images/utilities-and-grid/Crouzet.png" },
+                { "logo": "/assets/images/utilities-and-grid/ELektro-automatik.png" },
+                { "logo": "/assets/images/utilities-and-grid/Fluke.bmp" },
+                { "logo": "/assets/images/utilities-and-grid/Metcal.png" },
+                { "logo": "/assets/images/utilities-and-grid/mox.jpg" },
+                { "logo": "/assets/images/utilities-and-grid/Rhodes-and-Schwarz.png" },
+                { "logo": "/assets/images/utilities-and-grid/Siemens.bmp" },
+                { "logo": "/assets/images/utilities-and-grid/Traco-Power.bmp" },
+                { "logo": "/assets/images/utilities-and-grid/tti.bmp" }
             ]   
         },
         "defence": {

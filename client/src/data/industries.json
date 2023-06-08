@@ -10,10 +10,18 @@
             ],
             "logos": 
             [
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" }
+                { "logo": "/assets/images/oil-and-gass/3M.bmp" },
+                { "logo": "/assets/images/oil-and-gass/Chauvin-arnoux.png" },
+                { "logo": "/assets/images/oil-and-gass/FLir.png" },
+                { "logo": "/assets/images/oil-and-gass/Habia.jpeg" },
+                { "logo": "/assets/images/oil-and-gass/Metcal.png" },
+                { "logo": "/assets/images/oil-and-gass/Molex.png" },
+                { "logo": "/assets/images/oil-and-gass/panduit.png" },
+                { "logo": "/assets/images/oil-and-gass/pheonix.jpg" },
+                { "logo": "/assets/images/oil-and-gass/schnieder.png" },
+                { "logo": "/assets/images/oil-and-gass/SMC.jpg" },
+                { "logo": "/assets/images/oil-and-gass/Tyco-Electronincs.bmp" },
+                { "logo": "/assets/images/oil-and-gass/wruthh.png" }
             ]
         },
         "construction": {
@@ -50,7 +58,7 @@
             ],
             "logos": 
             [
-                { "logo": "/assets/images/education/Fluke.bmp" },
+                { "logo": "/assets/images/education/Fluke.jpg" },
                 { "logo": "/assets/images/education/Fluke-Networks.jpeg" },
                 { "logo": "/assets/images/education/keysight.png" },
                 { "logo": "/assets/images/education/Megger.png" },

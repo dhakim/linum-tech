@@ -6,6 +6,7 @@ import Button from "../Button/Button";
 import { useFormik } from 'formik';
 import Select from "../Select/Select";
 import * as Yup from 'yup';
+import reCaptchaImg from '../../assets/images/capatcha.png';
 
 const ContactForm = () => {
 
@@ -206,6 +207,10 @@ const ContactForm = () => {
                 label="Message *"
                 name="message"
               />
+            </div>
+
+            <div className="form-row">
+              <img src={reCaptchaImg} alt="reCaptcha" width="300" />
             </div>
 
             <div className="flex justify-end" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">

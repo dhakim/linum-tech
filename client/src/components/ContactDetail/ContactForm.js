@@ -55,7 +55,7 @@ const ContactForm = () => {
             Accept: 'application/json',
             'Content-Type': 'application/json'
           },
-          body: { values }
+          body: { bodyJSON }
       })
       .then(function (response) {
           console.log(response);

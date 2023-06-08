@@ -117,14 +117,20 @@
             "image": "/assets/images/oil-gass.jpg",
             "mediaImages": 
             [
-                "/assets/images/oil-gass.jpg"
+                "/assets/images/transportation/transportation.png"
             ],
             "logos": 
             [
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" },
-                { "logo": "/assets/images/outStrength/3M.png" }
+                { "logo": "/assets/images/transportation/3M.bmp" },
+                { "logo": "/assets/images/transportation/ELektro-automatik.png" },
+                { "logo": "/assets/images/transportation/Fluke.bmp" },
+                { "logo": "/assets/images/transportation/HELLERMAN.jpg" },
+                { "logo": "/assets/images/transportation/keysight.png" },
+                { "logo": "/assets/images/transportation/mox.jpg" },
+                { "logo": "/assets/images/transportation/Omron.bmp" },
+                { "logo": "/assets/images/transportation/Rhodes-and-Schwarz.png" },
+                { "logo": "/assets/images/transportation/Siemens.jpg" },
+                { "logo": "/assets/images/transportation/ST.bmp" }
             ]  
         }
     }

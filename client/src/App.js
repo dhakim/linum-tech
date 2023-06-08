@@ -12,6 +12,7 @@ import ProductsTemplate from "./pages/Products";
 function App() {
   useEffect(() => {
     AOS.init();
+    document.title = 'LinumTech';
   }, []);
 
   return (

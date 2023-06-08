@@ -1,5 +1,6 @@
 {
   "name": "linumtech",
+  "homepage": "http://www.linumtech.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

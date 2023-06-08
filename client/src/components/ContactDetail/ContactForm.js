@@ -15,8 +15,10 @@ const ContactForm = () => {
   const [messageValue, setMessageValue] = useState("");
   const [otherIndustryTxt, setOtherIndustryValue] = useState("");
   const [otherInterestTxt, setOtherInterestValue] = useState("");
+  const data = new FormData();
 
-  let indtxt, intertxt, bodyJSON = '';
+  let indtxt, intertxt;
+  var bodyJSON;
 
   const formik = useFormik({
     initialValues: {
@@ -48,14 +50,14 @@ const ContactForm = () => {
       values.message = messageValue;
 
       bodyJSON = JSON.stringify(values);
-      
+      //console.log(values);
       fetch('http://localhost:3001/contact', {
           method: 'POST',
           headers: {
             Accept: 'application/json',
             'Content-Type': 'application/json'
           },
-          body: { bodyJSON }
+          body: bodyJSON
       })
       .then(function (response) {
           console.log(response);

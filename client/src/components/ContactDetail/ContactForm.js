@@ -7,11 +7,14 @@ import { useFormik } from 'formik';
 import Select from "../Select/Select";
 import * as Yup from 'yup';
 import reCaptchaImg from '../../assets/images/capatcha.png';
+import axios from "axios";
 
 const ContactForm = () => {
 
   const [industryValue, setIndustryValue] = useState("");
   const [interestValue, setInterestValue] = useState("");
+
+  let indtxt, intertxt;
 
   const formik = useFormik({
     initialValues: {
@@ -19,12 +22,40 @@ const ContactForm = () => {
     },
     validationSchema: Yup.object({
       name: Yup.string().required("Name is required").matches(/^[A-Za-z]+$/, 'Only alphabets are allowed'),
-      phone: Yup.string().required("Phone is required").matches(/^\+?[1-9][0-9]{7,14}$/, 'Enter correct phone e.g. +971 3456 000 000'),
+      phone: Yup.string().required("Phone is required").matches(/^\+?[1-9][0-9]{7,14}$/, 'Enter correct phone e.g. +971 00 000 000'),
       email: Yup.string().required("Email is required").matches(/^\S+@\S+\.\S+$/, 'Please enter correct email ID'),
-      address: Yup.string().required("address is required"),
+      message: Yup.string().required("Message is required"),
     }),
     onSubmit: values => {
-      alert(JSON.stringify(values, null, 2));
+      setTimeout(() => {
+        // axios POST
+        if(values.industry == 'other-industry'){
+          indtxt = 'Other: ' + values.otherIndustry;
+        } else {
+          indtxt = values.industry;
+        }
+        if(values.yourInterest == 'other-connectors'){
+          intertxt = 'Other: ' + values.otherInterest;
+        } else {
+          intertxt = values.yourInterest;
+        }
+        const appURL = 'http://192.168.100.5:3001/contact'
+        axios.post(appURL, {
+            name: values.name,
+            email: values.email,
+            phone: values.phone,
+            industry: indtxt,
+            interest: intertxt,
+            message: values.message,
+        })
+        // .then(function (response) {
+        //     console.log(response);
+        // })
+        // .catch(function (error) {
+        //     console.log(error);
+        // })
+        ;
+      }, 400)
     },
   });
 

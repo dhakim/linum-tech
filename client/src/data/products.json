@@ -22,16 +22,16 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "Vishay" , "url": "#", "logo": "/assets/images/outStrength/3M.png"}, 
-                { "comp": "RND Components" , "url": "#", "logo": "/assets/images/outStrength/3M.png"}, 
-                { "comp": "Intelligent LED Solutions", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "Everlight Electronics", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "Apem, Diotec", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "ST", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "Littelfuse", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "KEMET", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "Panasonic", "url": "#", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "Würth Elektronik", "url": "#", "logo": "/assets/images/outStrength/3M.png" }
+                { "comp": "Vishay" , "url": "#", "logo": "/assets/images/products/electronic-components/vishay.png"}, 
+                { "comp": "RND Components" , "url": "#", "logo": "/assets/images/products/electronic-components/rnd-components.png"}, 
+                { "comp": "Intelligent LED Solutions", "url": "#", "logo": "/assets/images/products/electronic-components/"},
+                { "comp": "Everlight Electronics", "url": "#", "logo": "/assets/images/products/electronic-components/everlight-lighting-forever.png"},
+                { "comp": "Apem, Diotec", "url": "#", "logo": "/assets/images/products/electronic-components/apem-an-idec-company.png"},
+                { "comp": "ST", "url": "#", "logo": "/assets/images/products/electronic-components/"},
+                { "comp": "Littelfuse", "url": "#", "logo": "/assets/images/products/electronic-components/littelfuse.png"},
+                { "comp": "KEMET", "url": "#", "logo": "/assets/images/products/electronic-components/kemet-charged.png"},
+                { "comp": "Panasonic", "url": "#", "logo": "/assets/images/products/electronic-components/panasonic.png"},
+                { "comp": "Würth Elektronik", "url": "#", "logo": "/assets/images/products/electronic-components/wurth-elektronik.png" }
             ],
             "logos": 
             [

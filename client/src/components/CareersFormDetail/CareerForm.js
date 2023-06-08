@@ -22,8 +22,8 @@ const CareerForm = () => {
       alert(JSON.stringify(values, null, 2));
     },
     validationSchema: Yup.object({
-      name: Yup.string().required("Name is required").matches(/^[A-Za-z]+$/, "Only alphabets are allowed"),
-      phone: Yup.string().required("Phone is required").matches(/^\+?[1-9][0-9]{7,14}$/, 'Enter correct phone e.g. +971 3456 000 000'),
+      name: Yup.string().required("Name is required").matches(/^[a-zA-Z ]+$/, "Only alphabets are allowed"),
+      phone: Yup.string().required("Phone is required").matches(/^\+?[1-9][0-9]{7,14}$/, 'Enter correct phone e.g. +9713456000000'),
       email: Yup.string().required("Email is required").matches(/^\S+@\S+\.\S+$/, 'Please enter correct email ID'),
       address: Yup.string().required("address is required"),
     }),

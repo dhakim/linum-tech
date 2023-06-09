@@ -1,18 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useRef  } from 'react';
 import { useNavigate } from 'react-router-dom';
 import logoArcIcon from '../../assets/images/logo-arc.svg';
 import navListItems from './NavListItems';
 import hamburgerIcon from '../../assets/images/hamburger.svg';
 import logo from '../../assets/images/logo.svg';
 
+
 const Navigation = () => {
   const [navMobile, setNavMobile] = useState(false);
   const navigate = useNavigate();
+  const ref = useRef(null);
 
   const navigateToPage = (url) => {
     navigate(url);
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
   }
+
+  const handleClickScroll = () => {
+    const element = 'our_strength';
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <div className="navigation">
@@ -49,6 +58,7 @@ const Navigation = () => {
         <li className="button">
           <a href="https://www.distrelec.biz" target='_blank' rel="noreferrer">Distrelec</a>
         </li>
+        <li onClick={handleClickScroll}>d</li>
       </ul>
     </div>
   )

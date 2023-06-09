@@ -38,13 +38,13 @@
       left: 20px;
       top: -49px;
 
-      // @media only screen and (max-width: 992px) {
-      //   top: 5px;
+      @media only screen and (max-width: 767px) {
+        top: 5px;
 
-      //   a img {
-      //     height: 78px;
-      //   }
-      // }
+        a img {
+          height: 78px;
+        }
+      }
     }
 
     .navigation {
@@ -184,8 +184,6 @@
               border-radius: 39px;
               padding: 15px 15px 17px;
               background-color: #54AFE6;
-              color: #fff;
-              font-weight: 600;
               display: flex;
               justify-content: center;
               align-items: center;

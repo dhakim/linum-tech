@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import IntroBlock from '../components/IntroBlock/IntroBlock';
@@ -39,6 +39,7 @@ const ourStrengthLogos = [
 ]
 
 const Home = () => {
+  const ref = useRef(null);
   return (
     <React.Fragment>
       <Header/>
@@ -52,6 +53,7 @@ const Home = () => {
         sectionID="our_strength"
         isHeadingCenter={false}
         partnerLogos={ourStrengthLogos}
+        ref={ref}
       />
       <Footer />
     </React.Fragment>

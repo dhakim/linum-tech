@@ -23,12 +23,12 @@ const Header = () => {
           <div className="contact-info">
             <a href="mailto:info@linumtech.com" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
               <img src={emailIcon} alt="Email" />
-              info@linumtech.com
+              <span>info@linumtech.com</span>
             </a>
             
             <a href="tell:+971547864447" data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
               <img src={phoneIcon} alt="Mobile" />
-              +971 54 786 4447
+              <span>+971 54 786 4447</span>
             </a>
           </div>
         </div>

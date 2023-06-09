@@ -122,7 +122,15 @@
                 { "comp": "Thermal Imagers" },
                 { "comp": "Mechanical Test Instrument" }
             ],
-            "relatedmanufacturers":[],
+            "relatedmanufacturers":[
+                {"comp": "Flir", "logo": "/assets/images/products/test-equipment/FLir.png"},
+                {"comp": "Fluke", "logo": "/assets/images/products/test-equipment/fluke.png"},
+                {"comp": "Key Sight", "logo": "/assets/images/products/test-equipment/keysight.png"},
+                {"comp": "Mean Well", "logo": "/assets/images/products/test-equipment/meanwell.png"},
+                {"comp": "Megger", "logo": "/assets/images/products/test-equipment/megger.png"},
+                {"comp": "Rohde & Schwaraz", "logo": "/assets/images/products/test-equipment/rohde.png"},
+                {"comp": "Tektronix", "logo": "/assets/images/products/test-equipment/tektronix.png"}
+            ],
             "logos": 
             [
                 { "logo": "/assets/images/outStrength/3M.png" } ,

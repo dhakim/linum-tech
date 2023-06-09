@@ -95,10 +95,5 @@ const NavListItems = [
     navItem: 'Contact Us',
     url: '/contact'
   },
-  {
-    navItem: 'Distrelec',
-    url: 'https://www.distrelec.biz/',
-    class: "button"
-  },
 ]
 export default NavListItems;

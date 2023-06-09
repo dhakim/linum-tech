@@ -37,9 +37,6 @@ const Navigation = () => {
                           <span onClick={() => navigateToPage(subItem.url)}>
                             <img src={logoArcIcon} alt="icon" /> {subItem.navItem}
                           </span>
-                          {/* <Link to={subItem.url}>
-                            <img src={logoArcIcon} alt="icon" /> {subItem.navItem}
-                          </Link> */}
                         </li>
                       ))
                     }
@@ -50,6 +47,9 @@ const Navigation = () => {
             </li>
           ))
         }
+        <li className="button">
+          <a href="https://www.distrelec.biz" target='_blank' rel="noreferrer">Distrelec</a>
+        </li>
       </ul>
     </div>
   )

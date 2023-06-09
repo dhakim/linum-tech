@@ -178,18 +178,20 @@
           }
 
           &.button {
-            span {
+            a {
               width: 151px;
               height: 52px;
               border-radius: 39px;
               padding: 15px 15px 17px;
               background-color: #54AFE6;
+              color: #fff;
+              font-weight: 600;
               display: flex;
               justify-content: center;
               align-items: center;
             }
 
-            &:hover span {
+            &:hover a {
               background-color: #FFDC51;
               color: #001750;
             }

@@ -16,6 +16,8 @@ client/node_modules
 
 # production
 /build
+/client/.htaccess
+client/.htaccess
 
 # misc
 .DS_Store

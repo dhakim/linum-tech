@@ -13,7 +13,6 @@ import { Helmet } from "react-helmet";
 function App() {
   useEffect(() => {
     AOS.init();
-    document.title = 'LinumTech';
   }, []);
 
   return (

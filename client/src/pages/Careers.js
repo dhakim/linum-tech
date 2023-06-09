@@ -10,7 +10,7 @@ const Careers = () => {
     <React.Fragment>
       <Header/>
       <Helmet>
-        <title>Join Us</title>
+        <title>Linum Tech - Careers</title>
       </Helmet>
       <HeroSlider />
       <CareersFormDetail />

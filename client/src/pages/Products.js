@@ -17,7 +17,7 @@ const ProductsTemplate = () => {
     <React.Fragment>
       <Header/>
       <Helmet>
-        <title>{product.title}</title>
+        <title>{"Linum Tech - " + product.title}</title>
       </Helmet>
       <HeroSlider />
       <ProductDetail 

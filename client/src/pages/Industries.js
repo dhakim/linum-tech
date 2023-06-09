@@ -16,7 +16,7 @@ const IndustriesTemplate = () => {
     <React.Fragment>
       <Header/>
       <Helmet>
-        <title>{industry.title}</title>
+        <title>{"Linum Tech - " + industry.title}</title>
       </Helmet>
       <HeroSlider />
 

@@ -18,15 +18,13 @@ function App() {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Welcome to Linum Tech</title>
+        <title>Linum Tech - You Electronic Partner</title>
       </Helmet>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={ <Home />} />
           <Route path="/home" element={ <Home />} />
-          {/* <Route path="/industries/oil-and-gass" element={ <OilAndGass  /> } /> */}
           <Route path="/industries/:industryTxt" Component={ IndustriesTemplate } />
-          {/* <Route path="/products/electronic-components" element={<ElectronicComponents />} /> */}
           <Route path="/products/:productTxt" Component={ ProductsTemplate } />
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />

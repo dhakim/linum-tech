@@ -10,7 +10,7 @@ const Contact = () => {
     <React.Fragment>
       <Header/>
       <Helmet>
-        <title>Get in Touch with us</title>
+        <title>Linum Tech - Get in Touch with us</title>
       </Helmet>
       <HeroSlider />
       <ContactDetail />

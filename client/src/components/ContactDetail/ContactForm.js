@@ -15,7 +15,6 @@ const ContactForm = () => {
   const [messageValue, setMessageValue] = useState("");
   const [otherIndustryTxt, setOtherIndustryValue] = useState("");
   const [otherInterestTxt, setOtherInterestValue] = useState("");
-  const data = new FormData();
 
   let indtxt, intertxt;
   var bodyJSON;

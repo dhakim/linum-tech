@@ -2,7 +2,6 @@ import React from 'react';
 import './ProductComponents.scss';
 import SectionHeading from '../SectionHeading/SectionHeading';
 import arrowBlueIcon from '../../assets/images/arrow-blue-icon.svg';
-import { renderMatches } from 'react-router-dom';
 
 const ProductComponents = ({
   heading, 

@@ -27,7 +27,7 @@ const ContactForm = () => {
     validationSchema: Yup.object({
       name: Yup.string().required("Name is required").matches(/^[A-Za-z]+$/, 'Only alphabets are allowed'),
       phone: Yup.string().required("Phone is required").matches(/^\+?[1-9][0-9]{7,14}$/, 'Enter correct phone e.g. +971 00 000 000'),
-      email: Yup.string().required("Email is required").matches(/^\S+@\S+\.\S+$/, 'Please enter correct email ID'),
+      email: Yup.string().email('Invalid email').required('Email is Required'),
       message: Yup.string().required("Message is required"),
     }),
     onSubmit: values => { 
@@ -63,9 +63,10 @@ const ContactForm = () => {
           console.log(response);
       })
       // .catch(function (error) {
-      //     console.log(error);
+      //   console.log(error);
       // })
       ;
+      
     },
   });
 
@@ -272,8 +273,8 @@ const ContactForm = () => {
               <img src={reCaptchaImg} alt="reCaptcha" width="300" />
             </div>
 
-            <div className="flex justify-end" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-              <Button label="Send" />
+            <div className="flex justify-end" data-aos="fade-up" data-aos-duration="1000">
+              <Button label="Send" type="submit" />
             </div>
           </div>
         </div>

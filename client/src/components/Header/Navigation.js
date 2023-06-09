@@ -10,7 +10,6 @@ const Navigation = () => {
   const navigate = useNavigate();
 
   const navigateToPage = (url) => {
-    console.log(url);
     navigate(url);
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
   }

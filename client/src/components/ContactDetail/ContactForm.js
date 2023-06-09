@@ -25,10 +25,10 @@ const ContactForm = () => {
       name: '', phone: '', email: '', message: '', industry: '', interest: ''
     },
     validationSchema: Yup.object({
-      // name: Yup.string().required("Name is required").matches(/^[A-Za-z]+$/, 'Only alphabets are allowed'),
-      // phone: Yup.string().required("Phone is required").matches(/^\+?[1-9][0-9]{7,14}$/, 'Enter correct phone e.g. +971 00 000 000'),
-      // email: Yup.string().required("Email is required").matches(/^\S+@\S+\.\S+$/, 'Please enter correct email ID'),
-      // message: Yup.string().required("Message is required"),
+      name: Yup.string().required("Name is required").matches(/^[A-Za-z]+$/, 'Only alphabets are allowed'),
+      phone: Yup.string().required("Phone is required").matches(/^\+?[1-9][0-9]{7,14}$/, 'Enter correct phone e.g. +971 00 000 000'),
+      email: Yup.string().required("Email is required").matches(/^\S+@\S+\.\S+$/, 'Please enter correct email ID'),
+      message: Yup.string().required("Message is required"),
     }),
     onSubmit: values => { 
       if(industryValue == 'Other'){

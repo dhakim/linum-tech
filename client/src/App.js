@@ -19,7 +19,7 @@ function App() {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Linum Tech</title>
+        <title>Welcome to Linum Tech</title>
       </Helmet>
       <BrowserRouter>
         <Routes>

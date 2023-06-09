@@ -43,7 +43,7 @@ const Home = () => {
     <React.Fragment>
       <Header/>
       <Helmet>
-        <title>Our home page</title>
+        <title>Welcome to Linum Tech</title>
       </Helmet>
       <HeroSlider />
       <IntroBlock />

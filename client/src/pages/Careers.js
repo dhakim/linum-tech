@@ -3,11 +3,15 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import HeroSlider from '../components/HeroSlider/HeroSlider';
 import CareersFormDetail from '../components/CareersFormDetail/CareersFormDetail';
+import { Helmet } from 'react-helmet';
 
 const Careers = () => {
   return (
     <React.Fragment>
       <Header/>
+      <Helmet>
+        <title>Join Us</title>
+      </Helmet>
       <HeroSlider />
       <CareersFormDetail />
       <Footer />

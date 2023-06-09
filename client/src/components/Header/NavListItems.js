@@ -1,7 +1,8 @@
 const NavListItems = [
   {
     navItem: 'Home',
-    url: '/'
+    url: '/',
+    isHashTag: false,
   },
   {
     navItem: 'Industries',
@@ -85,15 +86,18 @@ const NavListItems = [
   },
   {
     navItem: 'Our Strength',
-    url: '/#our_strength'
+    url: '/home#our_strength',
+    isHashTag: true
   },
   {
     navItem: 'Careers',
-    url: '/careers'
+    url: '/careers',
+    isHashTag: false,
   },
   {
     navItem: 'Contact Us',
-    url: '/contact'
+    url: '/contact',
+    isHashTag: false,
   },
 ]
 export default NavListItems;

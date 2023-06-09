@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import IndustriesTemplate from "./pages/Industries";
 import ProductsTemplate from "./pages/Products";
 import { Helmet } from "react-helmet";
+import Header from "./components/Header/Header";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
         <title>Linum Tech - You Electronic Partner</title>
       </Helmet>
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={ <Home />} />
           <Route path="/home" element={ <Home />} />

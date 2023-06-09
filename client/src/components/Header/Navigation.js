@@ -1,9 +1,10 @@
 import React, { useState, useRef  } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import logoArcIcon from '../../assets/images/logo-arc.svg';
 import navListItems from './NavListItems';
 import hamburgerIcon from '../../assets/images/hamburger.svg';
 import logo from '../../assets/images/logo.svg';
+import { HashLink } from 'react-router-hash-link';
 
 
 const Navigation = () => {
@@ -16,13 +17,6 @@ const Navigation = () => {
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
   }
 
-  const handleClickScroll = () => {
-    const element = 'our_strength';
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <div className="navigation">
       <div className="hamburger" onClick={() => setNavMobile(!navMobile)}>
@@ -33,7 +27,12 @@ const Navigation = () => {
         {
           navListItems.map((item, index) => (
             <li key={index} className={item.class} data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
-              <span onClick={() => navigateToPage(item.url)}>{item.navItem}</span>
+              {!item.isHashTag ? (
+                <span onClick={() => navigateToPage(item.url)}>{item.navItem}</span>
+                ) : (
+                  <HashLink to={item.url}>{item.navItem}</HashLink>
+                )}
+              
               {/* <Link to={item.url}>{item.navItem}</Link> */}
 
               {
@@ -55,10 +54,15 @@ const Navigation = () => {
             </li>
           ))
         }
+        {/* <li key={index} className={item.class} data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+          <HashLink to="/home#our_strength">Our Strength</HashLink>
+        </li> */}
+        <li>
+          
+        </li>
         <li className="button">
           <a href="https://www.distrelec.biz" target='_blank' rel="noreferrer">Distrelec</a>
         </li>
-        <li onClick={handleClickScroll}>d</li>
       </ul>
     </div>
   )

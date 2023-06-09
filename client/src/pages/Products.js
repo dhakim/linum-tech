@@ -1,6 +1,5 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
-import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import HeroSlider from '../components/HeroSlider/HeroSlider';
 import ProductDetail from '../components/ProductDetail/ProductDetail';
@@ -15,7 +14,6 @@ const ProductsTemplate = () => {
 
   return (
     <React.Fragment>
-      <Header/>
       <Helmet>
         <title>{"Linum Tech - " + product.title}</title>
       </Helmet>

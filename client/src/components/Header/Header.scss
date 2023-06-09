@@ -110,7 +110,7 @@
           list-style: none;
           position: relative;
 
-          span {
+          span, a {
             font-size: 17px;
             font-weight: 500;
             color: #ffffff;
@@ -197,6 +197,8 @@
               background-color: #54AFE6;
               display: flex;
               justify-content: center;
+              font-weight: 600;
+              color: #FFF;
               align-items: center;
             }
 

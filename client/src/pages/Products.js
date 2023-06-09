@@ -24,7 +24,7 @@ const ProductsTemplate = () => {
       />
 
       <ProductComponents 
-        heading = "Components List"
+        heading = "Products List"
         componentList = { product.components }
       />
 

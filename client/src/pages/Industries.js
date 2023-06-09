@@ -6,6 +6,7 @@ import OurPartners from '../components/OurPartners/OurPartners';
 import HeroSlider from '../components/HeroSlider/HeroSlider';
 import CategoryDetail from '../components/CategoryDetail/CategoryDetail';
 import industriesData from '../data/industries.json';
+import { Helmet } from 'react-helmet';
 
 const IndustriesTemplate = () => {
     let { industryTxt } = useParams();
@@ -14,6 +15,9 @@ const IndustriesTemplate = () => {
   return (
     <React.Fragment>
       <Header/>
+      <Helmet>
+        <title>{industry.title}</title>
+      </Helmet>
       <HeroSlider />
 
       <CategoryDetail 

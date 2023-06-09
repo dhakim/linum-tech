@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import IndustriesTemplate from "./pages/Industries";
 import ProductsTemplate from "./pages/Products";
+import { Helmet } from "react-helmet";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,9 @@ function App() {
 
   return (
     <React.Fragment>
+      <Helmet>
+        <title>Linum Tech</title>
+      </Helmet>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={ <Home />} />

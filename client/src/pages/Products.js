@@ -7,6 +7,7 @@ import ProductDetail from '../components/ProductDetail/ProductDetail';
 import ProductComponents from '../components/ProductComponents/ProductComponents';
 import Manufacturers from '../components/Manufacturers/Manufacturers'
 import productsData from '../data/products.json';
+import { Helmet } from 'react-helmet';
 
 const ProductsTemplate = () => {
   let { productTxt } = useParams();
@@ -15,6 +16,9 @@ const ProductsTemplate = () => {
   return (
     <React.Fragment>
       <Header/>
+      <Helmet>
+        <title>{product.title}</title>
+      </Helmet>
       <HeroSlider />
       <ProductDetail 
         heading = { product.title }

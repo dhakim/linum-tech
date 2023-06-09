@@ -4,6 +4,7 @@ import Footer from '../components/Footer/Footer';
 import IntroBlock from '../components/IntroBlock/IntroBlock';
 import OurPartners from '../components/OurPartners/OurPartners';
 import HeroSlider from '../components/HeroSlider/HeroSlider';
+import { Helmet } from 'react-helmet';
 
 const ourStrengthLogos = [
   {logo: "/assets/images/construction/Siemens.jpg"},
@@ -41,6 +42,9 @@ const Home = () => {
   return (
     <React.Fragment>
       <Header/>
+      <Helmet>
+        <title>Our home page</title>
+      </Helmet>
       <HeroSlider />
       <IntroBlock />
       <OurPartners 

@@ -24,10 +24,10 @@
             [
                 { "comp": "Vishay" , "url": "#", "logo": "/assets/images/products/electronic-components/vishay.png"}, 
                 { "comp": "RND Components" , "url": "#", "logo": "/assets/images/products/electronic-components/rnd-components.png"}, 
-                { "comp": "Intelligent LED Solutions", "url": "#", "logo": "/assets/images/products/electronic-components/"},
+                { "comp": "Intelligent LED Solutions", "url": "#", "logo": ""},
                 { "comp": "Everlight Electronics", "url": "#", "logo": "/assets/images/products/electronic-components/everlight-lighting-forever.png"},
                 { "comp": "Apem, Diotec", "url": "#", "logo": "/assets/images/products/electronic-components/apem-an-idec-company.png"},
-                { "comp": "ST", "url": "#", "logo": "/assets/images/products/electronic-components/"},
+                { "comp": "ST", "url": "#", "logo": ""},
                 { "comp": "Littelfuse", "url": "#", "logo": "/assets/images/products/electronic-components/littelfuse.png"},
                 { "comp": "KEMET", "url": "#", "logo": "/assets/images/products/electronic-components/kemet-charged.png"},
                 { "comp": "Panasonic", "url": "#", "logo": "/assets/images/products/electronic-components/panasonic.png"},
@@ -158,11 +158,11 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "Festo" }, 
-                { "comp": "Siemens" }, 
-                { "comp": "Werma" },
-                { "comp": "Moxa" },
-                { "comp": "Schneider Electric" }
+                { "comp": "Festo", "logo": "/assets/images/products/automation/festo.png" }, 
+                { "comp": "Siemens", "logo": "/assets/images/construction/Siemens.jpg"}, 
+                { "comp": "Werma", "logo": "/assets/images/products/automation/Werma.png" },
+                { "comp": "Moxa", "logo": "/assets/images/construction/mox.jpg" },
+                { "comp": "Schneider Electric", "logo": "/assets/images/oil-and-gass/schnieder.png" }
             ],
             "logos": 
             [
@@ -190,13 +190,15 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "3M" }, 
-                { "comp": "Brady" }, 
-                { "comp": "RND Lab" },
-                { "comp": "Tesa" },
-                { "comp": "Eurostat, Kasp" },
-                { "comp": "Abus" },
-                { "comp": "Chemtronics, Peltor, Delta Plus" }
+                { "comp": "3M", "logo": "/assets/images/oil-and-gass/3M.bmp" }, 
+                { "comp": "Brady", "logo": "/assets/images/products/maintenance-safety-and-esd/brady.png" }, 
+                { "comp": "RND Lab", "logo": "/assets/images/products/maintenance-safety-and-esd/rnd-lab.png" },
+                { "comp": "Tesa", "logo": "/assets/images/products/maintenance-safety-and-esd/tesa.png" },
+                { "comp": "Eurostat, Kasp", "logo": "/assets/images/products/maintenance-safety-and-esd/eurostat.png" },
+                { "comp": "Abus", "logo": "/assets/images/products/maintenance-safety-and-esd/abus.png" },
+                { "comp": "Chemtronics, Peltor, Delta Plus", "logo": "/assets/images/products/maintenance-safety-and-esd/chemtronics.jpg" },
+                { "comp": "3M Peltor", "logo": "/assets/images/products/maintenance-safety-and-esd/3m-peltor.jpg" },
+                { "comp": "Delta Plus", "logo": "/assets/images/products/maintenance-safety-and-esd/deltaplus.png" }
             ],
             "logos": 
             [
@@ -231,15 +233,15 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "Wiha" },
-                { "comp": "RND Lab" },
-                { "comp": "C.K Tools" },
-                { "comp": "Weller" },
-                { "comp": "Wera,  Ersa" },
-                { "comp": "Metcal , Dremel" },
-                { "comp": "Ruko" },
-                { "comp": "Proxxon" },
-                { "comp": "Steinel" }
+                { "comp": "Wiha", "logo": "/assets/images/products/tools-soldering/wiha.png" },
+                { "comp": "RND Lab", "logo": "/assets/images/products/maintenance-safety-and-esd/rnd-lab.png" },
+                { "comp": "C.K Tools", "logo": "/assets/images/products/tools-soldering/ck.png" },
+                { "comp": "Weller", "logo": "/assets/images/education/weller.png" },
+                { "comp": "Wera,  Ersa", "logo": "/assets/images/products/tools-soldering/wera.png" },
+                { "comp": "Metcal , Dremel", "logo": "/assets/images/utilities-and-grid/Metcal.png" },
+                { "comp": "Ruko", "logo": "/assets/images/products/tools-soldering/ruko.jpg" },
+                { "comp": "Proxxon", "logo": "/assets/images/products/tools-soldering/prxxon.jpg" },
+                { "comp": "Steinel", "logo": "/assets/images/products/tools-soldering/steinel.jpg" }
             ],
             "logos": 
             [
@@ -267,11 +269,11 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "ebmpapst" },
-                { "comp": "Sunon" },
-                { "comp": "Sanyo Denki" },
-                { "comp": "Fischer Elektronik" },
-                { "comp": "RND Components" }
+                { "comp": "ebmpapst", "logo": "/assets/images/products/thermal-management/ebmpapst.png" },
+                { "comp": "Sunon", "logo": "/assets/images/products/thermal-management/sunon.png" },
+                { "comp": "Sanyo Denki", "logo": "/assets/images/products/thermal-management/sanyodenki.jpg" },
+                { "comp": "Fischer Elektronik", "logo": "/assets/images/products/thermal-management/fischer.png" },
+                { "comp": "RND Components", "logo": "/assets/images/products/thermal-management/rnd-components.png" }
             ],
             "logos": 
             [
@@ -302,12 +304,11 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "Bossard" },
-                { "comp": "Accuride" },
-                { "comp": "Simrit" },
-                { "comp": "nVent Schroff" },
-                { "comp": "Tente" },
-                { "comp": "Triax" }
+                { "comp": "Bossard", "logo": "/assets/images/products/mechanical-components/bossard.png" },
+                { "comp": "Accuride", "logo": "/assets/images/products/mechanical-components/accuride.png" },
+                { "comp": "Simrit", "logo": "/assets/images/products/mechanical-components/simrit.png" },
+                { "comp": "nVent Schroff", "logo": "/assets/images/products/mechanical-components/nvent-schroff.png" },
+                { "comp": "Tente", "logo": "/assets/images/products/mechanical-components/tente.png" }
             ],
             "logos": 
             [
@@ -334,11 +335,12 @@
             ],
             "relatedmanufacturers":
             [
-                { "comp": "Traco Power" },
-                { "comp": "MEAN WELL" },
-                { "comp": "XP Power" },
-                { "comp": "Recom" },
-                { "comp": "RND Power" }
+                { "comp": "Traco Power", "logo": "/assets/images/products/power/traco-power.png" },
+                { "comp": "MEAN WELL", "logo": "/assets/images/products/power/meanwell.png" },
+                { "comp": "XP Power", "logo": "/assets/images/products/power/xp-power.png" },
+                { "comp": "Recom", "logo": "/assets/images/products/power/recom.png" },
+                { "comp": "RND Power", "logo": "/assets/images/products/power/rnd-power.png" },
+                { "comp": "Eaton", "logo": "/assets/images/products/power/EATON.png" }
             ],
             "logos": 
             [
@@ -355,11 +357,11 @@
             "components":[],
             "relatedmanufacturers":
             [
-                { "comp": "RaspberryPI", "logo": "/assets/images/outStrength/3M.png" }, 
-                { "comp": "Seeed", "logo": "/assets/images/outStrength/3M.png" }, 
-                { "comp": "Digilent", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "Arduino", "logo": "/assets/images/outStrength/3M.png" },
-                { "comp": "Sparkfun Electronics", "logo": "/assets/images/outStrength/3M.png" }
+                { "comp": "RaspberryPI", "logo": "/assets/images/products/development-boards-and-kits/raspberryPi.png"},
+                { "comp": "Seeed", "logo": "/assets/images/products/development-boards-and-kits/seed.png"},
+                { "comp": "Digilent", "logo": "/assets/images/products/development-boards-and-kits/digilent.png"},
+                { "comp": "Arduino", "logo": "/assets/images/products/development-boards-and-kits/arduino.png"},
+                { "comp": "Sparkfun Electronics", "logo": "/assets/images/products/development-boards-and-kits/sparkfun.png"}
             ],
             "logos": 
             [

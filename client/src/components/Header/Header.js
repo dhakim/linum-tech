@@ -26,7 +26,7 @@ const Header = () => {
               <span>info@linumtech.com</span>
             </a>
             
-            <a href="tell:+971547864447" data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
+            <a href="tel:+971547864447" data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
               <img src={phoneIcon} alt="Mobile" />
               <span>+971 54 786 4447</span>
             </a>

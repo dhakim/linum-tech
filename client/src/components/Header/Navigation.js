@@ -15,7 +15,13 @@ const Navigation = () => {
   const navigateToPage = (url) => {
     navigate(url);
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    console.log(url)
+    
+    if (url !== undefined) {
+      setNavMobile(false);
+    }
   }
+  
 
   return (
     <div className="navigation">
@@ -30,7 +36,7 @@ const Navigation = () => {
               {!item.isHashTag ? (
                 <span onClick={() => navigateToPage(item.url)}>{item.navItem}</span>
                 ) : (
-                  <HashLink to={item.url}>{item.navItem}</HashLink>
+                  <HashLink to={item.url} onClick={() => setNavMobile(false)}>{item.navItem}</HashLink>
                 )}
               
               {/* <Link to={item.url}>{item.navItem}</Link> */}
@@ -54,12 +60,6 @@ const Navigation = () => {
             </li>
           ))
         }
-        {/* <li key={index} className={item.class} data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
-          <HashLink to="/home#our_strength">Our Strength</HashLink>
-        </li> */}
-        <li>
-          
-        </li>
         <li className="button">
           <a href="https://www.distrelec.biz" target='_blank' rel="noreferrer">Distrelec</a>
         </li>

@@ -264,7 +264,9 @@ const ContactForm = () => {
               <TextArea 
                 label="Message *"
                 name="message"
+                onBlur={formik.handleBlur}
                 onChange = {onMessageChange}
+                errorMessage={formik.touched.message && formik.errors.message ? formik.errors.message : null}
               />
             </div>
 

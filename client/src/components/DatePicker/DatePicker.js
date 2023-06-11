@@ -13,9 +13,6 @@ export default function DatePicker({
       <label>{label}</label>
       <div className="calendar-control">
         <Flatpickr ref={fp}  />
-        <div className="calendar-icon">
-          <img src={calendarIcon} alt="calendar icon" />
-        </div>
       </div>
     </div>
   );

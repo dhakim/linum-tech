@@ -1,5 +1,9 @@
 .product-components {
   padding: 0 0 100px; 
+  
+  @media only screen and (max-width:767px) {
+    padding-bottom: 40px;
+  }
 
   .components-list {
     width: 100%;

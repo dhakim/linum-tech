@@ -268,7 +268,7 @@ const ContactForm = () => {
               />
             </div>
 
-            <div className="form-row">
+            <div className="form-row recaptcha">
               <img src={reCaptchaImg} alt="reCaptcha" width="300" />
             </div>
 

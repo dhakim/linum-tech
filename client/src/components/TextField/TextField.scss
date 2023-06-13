@@ -14,13 +14,14 @@
     position: absolute;
   }
 
-  .form-control, input[type="text"] {
+  .form-control, input[type="text"], input[type="date"] {
     width: 100%;
     height: 54px;
     border: 1px solid #3D3E40;
     font-size: 14px;
     padding: 0 15px
   }
+  input[type="date"]::-webkit-calendar-picker-indicator {opacity: 0;}
 
   &.disabled {
     label {
@@ -38,7 +39,7 @@
 .calendar-control {
   position: relative;
 
-  input[type="text"] {
+  input[type="text"], input[type="date"] {
     cursor: pointer;
     position: relative;
     z-index: 100;
@@ -48,6 +49,7 @@
   .calendar-icon {
     position: absolute;
     right: 15px;
-    top: 17px
+    top: 17px;
+
   }
 }

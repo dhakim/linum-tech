@@ -16,9 +16,9 @@ app.get("/api", (req, res) => {
 });
 
 app.post("/contact", (req, res) => {
-    // res.setHeader('Content-Type', 'text/plain')
-    // res.write('you posted:\n') 
-    // res.end(JSON.stringify(req.body))
+    res.setHeader('Content-Type', 'text/plain')
+    res.write('you posted:\n') 
+    res.end(JSON.stringify(req.body))
     const message = `
         <p>Hello Sir,</p>
         <p>${req.body.name} has sent a message from linumtech.com website, details are as below:</p>
@@ -36,7 +36,7 @@ app.post("/contact", (req, res) => {
 });
 
 const sendemail = (emailmessage) => {
-    //console.log('sending email');
+    console.log('sending email');
     sendmail({
         from: 'info@linumtech.com',
         to: 'danish.hakim@gmail.com',
